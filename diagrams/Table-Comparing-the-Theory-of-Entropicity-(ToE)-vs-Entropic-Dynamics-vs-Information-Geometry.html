@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Table-Comparing-the-Theory-of-Entropicity-(ToE)-vs-Entropic-Dynamics-vs-Information-Geometry-vs-Quantum-Relative-Entropy</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<p><strong><mark>Table Comparing the Theory of Entropicity (ToE) vs
+Entropic Dynamics vs Information Geometry vs Quantum Relative Entropy</mark></strong></p>
+<p><strong>1. Comparison table: ToE vs Entropic Dynamics vs Information
+Geometry</strong></p>
+<table>
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 29%" />
+<col style="width: 26%" />
+<col style="width: 27%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Axis</strong></th>
+<th><strong>Theory of Entropicity (ToE)</strong></th>
+<th><strong>Entropic Dynamics (ED)</strong></th>
+<th><strong>Information Geometry (IG)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Ontological status of entropy</strong></td>
+<td><strong>Fundamental physical field</strong> with its own action,
+equations of motion, and local–spectral structure</td>
+<td>Epistemic quantity governing <strong>inference</strong> about
+microstates</td>
+<td>Statistical descriptor of <strong>uncertainty</strong> on parameter
+spaces</td>
+</tr>
+<tr>
+<td><strong>Status of information geometry</strong></td>
+<td><strong>Identified with physical spacetime geometry</strong>; metric
+of distinguishability = metric of spacetime</td>
+<td>Abstract configuration space for probability distributions; not
+identified with physical spacetime</td>
+<td>Abstract statistical manifold; geometry of model families, not
+physical spacetime</td>
+</tr>
+<tr>
+<td><strong>Core dynamical principle</strong></td>
+<td><strong>Obidi Action</strong> (local + spectral) for an entropic
+field; field equations for geometry, matter, and gauge sectors</td>
+<td>Maximum entropy + entropic updating; trajectories as entropic
+inferences</td>
+<td>Geodesics, curvature, and connections on statistical manifolds; no
+fundamental action principle for physics</td>
+</tr>
+<tr>
+<td><strong>Role of geodesics</strong></td>
+<td>Geodesics of the entropic metric are <strong>physical trajectories
+in spacetime</strong></td>
+<td>Geodesics represent <strong>most probable inference paths</strong>
+in configuration space</td>
+<td>Geodesics encode <strong>optimal statistical transitions</strong>
+between distributions</td>
+</tr>
+<tr>
+<td><strong>Origin of spacetime geometry</strong></td>
+<td><strong>Generated by the entropic field</strong>; curvature is
+entropic in origin</td>
+<td>Background structure; not derived from entropy</td>
+<td>Given as Fisher–Rao/Fubini–Study metric; not derived from a physical
+field</td>
+</tr>
+<tr>
+<td><strong>Treatment of matter and gauge fields</strong></td>
+<td><strong>Emergent from the entropic field</strong> via
+amplitude/phase decomposition and spectral sector</td>
+<td>Not derived; ED typically assumes a given Hamiltonian or
+constraints</td>
+<td>Not addressed; IG is agnostic about matter/gauge content</td>
+</tr>
+<tr>
+<td><strong>Cutoff / scale structure</strong></td>
+<td>Explicit <strong>entropic cutoff Λ</strong> and local–spectral
+duality; spectral action for global structure</td>
+<td>No intrinsic cutoff; scale enters via chosen constraints</td>
+<td>No fundamental cutoff; scales come from model choice</td>
+</tr>
+<tr>
+<td><strong>Category of theory</strong></td>
+<td><strong>Physical field theory</strong> with unifying ambitions
+(geometry, matter, gravitation)</td>
+<td><strong>Inference framework</strong> for dynamics; reinterpretation
+of mechanics</td>
+<td><strong>Mathematical framework</strong> for statistics and
+learning</td>
+</tr>
+<tr>
+<td><strong>Status of forces / gravity</strong></td>
+<td>Gravity and interactions arise from <strong>entropic
+geometry</strong> and its field equations</td>
+<td>Forces emerge as <strong>entropic drifts</strong> in probability
+space</td>
+<td>Forces not primary; IG may model them statistically but not derive
+them</td>
+</tr>
+<tr>
+<td><strong>Goal</strong></td>
+<td>Entropic origin of <strong>spacetime, fields, and
+dynamics</strong></td>
+<td>Entropic reinterpretation of <strong>quantum and classical
+dynamics</strong></td>
+<td>Geometric understanding of <strong>statistical models and
+inference</strong></td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+<br>
+
+<section>
+
+  <h2 style="font-family: Georgia, serif; font-weight: 700; margin-bottom: 0.5em;">
+   Axis Based Comparison: Theory of Entropicity (ToE) vs Ginestra Bianconi’s Gravity from Entropy (GfE)
+  </h2>
+
+  <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%; font-size: 1.05em;">
+    <thead style="background: #f2f2f2; font-weight: bold;">
+      <tr>
+        <th>Axis</th>
+        <th>Theory of Entropicity (ToE)</th>
+        <th>Gravity-from-Entropy (GfE)</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr>
+        <td>Ontological status of entropy</td>
+        <td>Entropy is a fundamental physical field with its own action, equations of motion, and local–spectral structure.</td>
+        <td>Entropy is a quantum relative entropy functional comparing geometries; not a physical field but an information-theoretic measure.</td>
+      </tr>
+
+      <tr>
+        <td>Origin of geometry</td>
+        <td>Spacetime geometry is generated by the entropic field; curvature is entropic in origin.</td>
+        <td>Geometry is compared via relative entropy between quantum states of geometry; gravity emerges from entropy differences.</td>
+      </tr>
+
+      <tr>
+        <td>Core dynamical principle</td>
+        <td>Obidi Action (local + spectral) yields field equations for geometry, matter, and gauge sectors.</td>
+        <td>Variation of quantum relative entropy defines emergent gravitational dynamics.</td>
+      </tr>
+
+      <tr>
+        <td>Role of geodesics</td>
+        <td>Geodesics of the entropic metric are physical trajectories in spacetime.</td>
+        <td>Geodesics arise from entropy-optimized geometry transitions, not from a physical entropic metric.</td>
+      </tr>
+
+      <tr>
+        <td>Treatment of matter and fields</td>
+        <td>Matter and gauge fields emerge from the entropic field via amplitude/phase decomposition and spectral structure.</td>
+        <td>GfE does not derive matter or gauge fields; focuses solely on emergent gravity from entropy.</td>
+      </tr>
+
+      <tr>
+        <td>Cutoff / scale structure</td>
+        <td>Explicit entropic cutoff Λ and local–spectral duality; spectral action governs global structure.</td>
+        <td>No intrinsic cutoff; scale enters through the quantum states of geometry used in the relative entropy functional.</td>
+      </tr>
+
+      <tr>
+        <td>Category of theory</td>
+        <td>Physical field theory with unifying ambitions for geometry, matter, and gravitation.</td>
+        <td>Information-theoretic gravitational framework based on relative entropy.</td>
+      </tr>
+
+      <tr>
+        <td>Status of gravity</td>
+        <td>Gravity arises from entropic geometry and its field equations.</td>
+        <td>Gravity emerges from quantum relative entropy between geometries.</td>
+      </tr>
+
+      <tr>
+        <td>Goal</td>
+        <td>Entropic origin of spacetime, fields, and dynamics.</td>
+        <td>Derive gravity from information-theoretic entropy without invoking a fundamental field.</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+</section>
+
+
+<hr>
+<br>
+<section>
+
+  <h1 style="font-family: Georgia, serif; font-weight: 700; margin-bottom: 0.5em;">
+    Comparative Research Landscape of Entropic Dynamics, Information Geometry, Quantum Relative Entropy, and the Theory of Entropicity (ToE)
+  </h1>
+
+  <p style="font-size: 1.1em; line-height: 1.6;">
+    The following table presents a clear comparison of the major intellectual frameworks that explore entropy, inference, and information as foundational elements of physical theory. It highlights the key researchers whose work defines each field, allowing readers to understand the lineage, scope, and conceptual orientation of Entropic Dynamics, Information Geometry, and the Theory of Entropicity (ToE). 
+  </p>
+
+  <p style="font-size: 1.1em; line-height: 1.6;">
+    The landscape of entropy‑based theoretical frameworks spans several distinct intellectual lineages, each with its own foundational assumptions, mathematical structures, and leading investigators. 
+    Within this landscape, <strong>Ginestra Bianconi</strong> occupies a dual position: she is a leading figure in <em>Network Entropy, Entropic Network Geometry, and Entropy‑Driven Network Evolution</em>, and she is also the originator of the recent <strong>Gravity‑from‑Entropy (GfE)</strong> framework. 
+    Crucially, GfE is <em>not</em> derived from network entropy; instead, it is formulated using <strong>quantum relative entropy between geometries</strong> to define an emergent gravitational dynamics. 
+    This places GfE in a conceptual category distinct from her network‑theoretic work, and also distinct from Entropic Dynamics (ED), Information Geometry (IG), and Information‑Theoretic Physics. 
+    </p>
+  <p>
+    All names and details are presented exactly as they appear in the established scholarly literature, without modification, omission, or interpretive alteration.
+  </p>
+
+  <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%; font-size: 1.05em;">
+    <thead style="background: #f2f2f2; font-weight: bold;">
+      <tr>
+        <th>Framework</th>
+        <th>Key Researchers</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Theory of Entropicity (ToE)</strong></td>
+        <td>John Onimisi Obidi</td>
+        <td>Entropy as ontological primitive; κ–ρₛ fields; Obidi Action</td>
+      </tr>
+      <tr>
+        <td><strong>Entropic Dynamics (ED)</strong></td>
+        <td>Ariel Caticha, Kevin Vanslette, Daniel Bartolomeo, John Skilling</td>
+        <td>Quantum mechanics from inference; entropic time</td>
+      </tr>
+      <tr>
+        <td><strong>Information Geometry (IG)</strong></td>
+        <td>Shun‑ichi Amari, Hiroshi Nagaoka, C.R. Rao, Nihat Ay, Frank Nielsen, Sumio Watanabe</td>
+        <td>Fisher metric; α‑connections; statistical manifolds</td>
+      </tr>
+      <tr>
+        <td><strong>Information Dynamics / Info‑Theoretic Physics</strong></td>
+        <td>Rolf Landauer, Wojciech Zurek, Christopher Fuchs, Seth Lloyd, J.A. Wheeler, Luciano Floridi</td>
+        <td>Information‑based physics; decoherence; “It from Bit”</td>
+      </tr>
+
+     <tr>
+        <td><strong>Gravity‑from‑Entropy (GfE)</strong></td>
+        <td>Ginestra Bianconi</td>
+        <td>Emergent gravity derived from <strong>quantum relative entropy between geometries</strong>; distinct from network‑based entropy frameworks</td>
+      </tr>
+    </tbody>
+  </table>
+
+</section>
+
+</body>
+</html>

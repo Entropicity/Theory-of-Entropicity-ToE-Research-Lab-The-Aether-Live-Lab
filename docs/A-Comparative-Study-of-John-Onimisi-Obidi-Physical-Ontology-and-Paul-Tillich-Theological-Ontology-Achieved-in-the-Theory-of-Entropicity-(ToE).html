@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Entropic Unity of Being: A Comparative Study of John Onimisi Obidi's Physical Ontology and Paul Tillich's Theological Ontology in the Light of the Theory of Entropicity (ToE)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Josefin+Sans:wght@200;300;400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --ink: #0a0a0a;
+      --paper: #f5f0e8;
+      --cream: #ede7d5;
+      --gold: #8f6f1d;
+      --muted: #6b6355;
+      --rule: #c8bfa8;
+      --accent: #2a2318;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 18px; scroll-behavior: smooth; }
+    body {
+      background-color: var(--paper);
+      color: var(--ink);
+      font-family: 'EB Garamond', Georgia, serif;
+      line-height: 1.75;
+      min-height: 100vh;
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 999;
+      opacity: 0.4;
+    }
+    .page-wrap { max-width: 780px; margin: 0 auto; padding: 4rem 2rem 8rem; }
+    header {
+      text-align: center;
+      padding: 5rem 0 3rem;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 3.5rem;
+    }
+    .journal-label {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 200;
+      font-size: 0.65rem;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 300;
+      font-size: clamp(1.9rem, 5vw, 3rem);
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+      color: var(--accent);
+      margin-bottom: 1.5rem;
+    }
+    h1 em { font-style: italic; color: var(--gold); }
+    .subtitle {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 300;
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 2.5rem;
+    }
+    .ornament {
+      color: var(--gold);
+      font-size: 1.4rem;
+      letter-spacing: 0.5em;
+      opacity: 0.7;
+    }
+    h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 500;
+      font-size: 1.55rem;
+      color: var(--accent);
+      margin: 3.5rem 0 1.2rem;
+      letter-spacing: 0.01em;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--rule);
+    }
+    h2 .section-num {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 200;
+      font-size: 0.7rem;
+      letter-spacing: 0.25em;
+      color: var(--gold);
+      display: block;
+      margin-bottom: 0.3rem;
+      text-transform: uppercase;
+    }
+    h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 500;
+      font-style: italic;
+      font-size: 1.2rem;
+      color: var(--accent);
+      margin: 2.2rem 0 0.8rem;
+    }
+    p {
+      margin-bottom: 1.3rem;
+      font-size: 1rem;
+      color: #1a1612;
+      text-align: justify;
+      hyphens: auto;
+    }
+    p + p { text-indent: 1.5em; }
+    .dropcap::first-letter {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: 4.2rem;
+      line-height: 0.75;
+      float: left;
+      margin-right: 0.1em;
+      margin-top: 0.12em;
+      color: var(--gold);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.8rem 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid var(--rule);
+      padding: 0.6rem 0.7rem;
+      vertical-align: top;
+    }
+    th {
+      background: var(--cream);
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 400;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.7rem;
+      color: var(--accent);
+    }
+    .diagram-box {
+      border: 1px solid var(--rule);
+      background: var(--cream);
+      padding: 1.2rem 1.4rem;
+      margin: 2.2rem 0;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1rem;
+    }
+    .diagram-title {
+      text-align: center;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.8rem;
+    }
+    .ornamental-hr {
+      text-align: center;
+      color: var(--gold);
+      font-size: 1rem;
+      letter-spacing: 1em;
+      margin: 2.5rem 0;
+      opacity: 0.6;
+    }
+    footer {
+      margin-top: 5rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--rule);
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 200;
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-align: center;
+      line-height: 2;
+    }
+  </style>
+</head>
+
+<body>
+<div class="page-wrap">
+ <nav>
+    <p><a href="../philosophy/index.html">← Back to Philosophy Homepage</a></p>
+  </nav>
+
+  <hr>
+  <header>
+    <p class="journal-label">Philosophy of Physics · Theology of Being · May 16, 2026</p>
+    <h1>
+      <span style="display:block;">The Entropic Unity of Being:</span>
+      <span style="display:block;">A Comparative Study of John Onimisi Obidi's Physical Ontology</span>
+      <span style="display:block;">and Paul Tillich's Theological Ontology in the Light of the <em>Theory of Entropicity (ToE)</em></span>
+    </h1>
+    <p class="subtitle">How Ontological Courage and the Entropic Field Unify the Being of Self and the Being of the Cosmos</p>
+    <div class="ornament">— ✦ —</div>
+  </header>
+
+  <div class="article-body">
+
+    <!-- ABSTRACT -->
+    <section>
+      <p class="dropcap">
+        This monograph undertakes a comparative study of two seemingly distant yet structurally convergent projects: Paul Tillich’s theological ontology of the <em>Courage to Be</em> and John Onimisi Obidi’s physical ontology of <em>Ontological Courage</em> within the Theory of Entropicity (ToE). Tillich’s work addresses the existential drama of the self that must affirm its being in the face of nonbeing. Obidi’s work addresses the cosmological drama of a universe whose inherited descriptions fracture under their own assumptions and must be re‑founded on a deeper substrate. The central thesis advanced here is that Obidi’s entropic ontology does not merely parallel Tillich’s existential ontology; it subsumes and universalizes it. By affirming entropy as a universal field, ToE provides a single ontological ground in which the courage of the self and the structure of the cosmos are reconciled as different scales of one and the same act of being.
+      </p>
+      <p>
+        The analysis proceeds by first clarifying the inner logic of Tillich’s Courage to Be, then articulating the core structure of Obidi’s Ontological Courage and his triadic ARC, and finally demonstrating how the entropic field functions as a universal power of being that embraces both the existential affirmation of the person and the ontological affirmation of the universe. In this way, the Theory of Entropicity is interpreted not only as a proposal in fundamental physics but as a metaphysical bridge between theology and cosmology, between the being of the self and the being of the cosmos.
+      </p>
+    </section>
+
+    <!-- SECTION I: TILLICH'S THEOLOGICAL ONTOLOGY -->
+    <section>
+      <h2><span class="section-num">§ I</span> Paul Tillich’s Theological Ontology of the Courage to Be</h2>
+
+      <p>
+        Paul Tillich’s theological ontology begins from the experience of anxiety. Human beings, he argues, are not merely biological organisms but self‑aware centers of existence who know that they are finite and that their being is threatened by nonbeing. This awareness gives rise to existential anxiety, which is not reducible to ordinary fear. Fear has an object that can be confronted or avoided; existential anxiety has no such object, because its content is the possibility that being itself may be without ground or meaning.
+      </p>
+
+      <p>
+        Tillich distinguishes several fundamental forms of this anxiety. There is the anxiety of fate and death, in which the individual confronts the inevitability of mortality and the contingency of every event. There is the anxiety of emptiness and meaninglessness, in which the symbols, values, and narratives that once gave coherence to life lose their power. There is the anxiety of guilt and condemnation, in which the self experiences its own failure and estrangement from what it takes to be ultimately right or holy. These anxieties are not pathological accidents; they are structural features of finite existence.
+      </p>
+
+      <p>
+        The <em>Courage to Be</em> is Tillich’s name for the act by which the self affirms its being in spite of these threats. Courage is not the denial of anxiety but the decision to exist with it and through it. The self does not overcome nonbeing by its own resources; rather, it participates in what Tillich calls the “power of being‑itself.” This power is not a being among beings but the depth of reality that makes any being possible. In religious language, it is symbolized as God, but Tillich insists that this “God above God” is not an object of belief but the ground of all confidence that being is ultimately stronger than nonbeing.
+      </p>
+
+      <p>
+        In this framework, courage is simultaneously ethical, existential, and ontological. It is ethical because it concerns the decision to live authentically rather than in bad faith. It is existential because it addresses the concrete situation of the person who must live under the shadow of death and meaninglessness. It is ontological because it reveals something about the structure of reality: that being is not a fragile accident but a power that can be trusted. The Courage to Be is therefore a window into the nature of being itself, seen from the vantage point of the threatened self.
+      </p>
+    </section>
+
+    <!-- SECTION II: OBIDI'S PHYSICAL ONTOLOGY -->
+    <section>
+      <h2><span class="section-num">§ II</span> John Onimisi Obidi’s Physical Ontology of Ontological Courage</h2>
+
+      <p>
+        John Onimisi Obidi’s physical ontology arises from a different starting point but confronts a structurally similar crisis. Modern theoretical physics, in his analysis, has reached a point where its foundational primitives no longer cohere. Spacetime in general relativity, quantum states in quantum mechanics, and statistical entropy in thermodynamics coexist as powerful but ontologically disjoint elements. The attempt to unify them has produced increasingly elaborate formalisms without a corresponding clarification of what reality fundamentally is. The result is a kind of epistemic anxiety: physics possesses extraordinary predictive power yet lacks a unified picture of being.
+      </p>
+
+      <p>
+        Obidi’s response is the Theory of Entropicity (ToE), which proposes that entropy is not a secondary measure of disorder or uncertainty but a fundamental dynamical field. In this view, the universe is not built out of pre‑given geometric structures or particulate building blocks. Instead, it is structured by an underlying entropic manifold whose local and global dynamics give rise to the phenomena we describe as spacetime, matter, and interaction. Geometry is no longer the stage on which physics unfolds; it is an emergent expression of entropic curvature.
+      </p>
+
+      <p>
+        To adopt such a view requires more than technical ingenuity. It requires what Obidi calls <em>Ontological Courage</em>. This courage is the willingness to abandon inherited primitives, to let go of the metaphysical scaffolding of twentieth‑century physics, and to follow the implications of entropic dynamics wherever they lead. It is not a rejection of past achievements but a refusal to treat them as untouchable. Ontological Courage is the intellectual readiness to say that what has long been regarded as fundamental may in fact be derivative, and that a single entropic field may underlie the diverse formalisms of modern theory.
+      </p>
+
+      <p>
+        Obidi articulates this stance through a triadic structure he names the ARC of Ontological Courage: Audacity, Radicality, and Courage. Audacity is the decision to question the deepest assumptions of one’s discipline. Radicality is the commitment to rebuild the conceptual edifice from the ground up rather than merely adjusting its surface. Courage is the sustained willingness to affirm a new ontology even when it contradicts entrenched intuitions and institutional expectations. Within ToE, this triad is not a rhetorical flourish but a methodological necessity. Without such courage, the entropic field would remain a marginal reinterpretation; with it, entropy becomes the universal substrate of physical reality.
+      </p>
+
+      <p>
+        In this way, Obidi’s physical ontology is not simply a new theory among others. It is an attempt to relocate the foundation of physics from geometry to entropic dynamics, from a universe of static structures to a universe of continuous differentiation and becoming. Ontological Courage is the name he gives to the human act that corresponds to this ontological shift: the act of affirming an entropic universe even when the familiar images of space, time, and matter must be relinquished.
+      </p>
+    </section>
+
+    <!-- PART 2 CONTINUES HERE -->
+
+    <!-- SECTION III: COMPARATIVE ANALYSIS -->
+    <section>
+      <h2><span class="section-num">§ III</span> Comparative Analysis: Two Ontologies of Courage</h2>
+
+      <p>
+        At first glance, Tillich’s theological ontology and Obidi’s physical ontology inhabit different worlds. One speaks the language of faith, anxiety, and the ground of being; the other speaks the language of fields, manifolds, and dynamical substrates. Yet beneath these differences lies a striking structural kinship. Both thinkers begin from a crisis: for Tillich, the crisis of the self confronted by nonbeing; for Obidi, the crisis of physics confronted by the fragmentation of its own foundations. Both respond by appealing to a deeper level of reality that can sustain affirmation in the face of this crisis.
+      </p>
+
+      <p>
+        In Tillich’s case, the deeper level is the power of being‑itself, which undergirds every finite act of existence. The self can affirm its being because it participates in this power, even when its own resources are exhausted. In Obidi’s case, the deeper level is the entropic field, which underlies and generates the structures that physics has traditionally treated as primitive. The universe can be re‑described and re‑founded because there is a substrate more fundamental than geometry or particles, a field whose dynamics make these structures possible.
+      </p>
+
+      <p>
+        The parallel can be sharpened by considering the role of nonbeing in each framework. For Tillich, nonbeing appears as existential anxiety: the possibility that life is meaningless, that death is final, that guilt is inescapable. For Obidi, nonbeing appears as epistemic breakdown: the realization that the existing ontological categories of physics cannot be consistently unified, that the laws of nature are described but not grounded, that the supposed primitives of theory may be shadows of something deeper. In both cases, courage is the act that refuses to let this encounter with nonbeing result in paralysis or retreat.
+      </p>
+
+      <p>
+        There is, however, an important difference in scale. Tillich’s courage is centered on the self. It is the individual who must decide whether to affirm or deny their being. Obidi’s courage is centered on the cosmos. It is the scientific community, and ultimately humanity’s understanding of reality, that must decide whether to cling to familiar ontologies or to embrace an entropic foundation. The subject of courage shifts from the person to the universe, but the structure of the act remains recognizably similar: in both cases, being is affirmed against the threat of nonbeing by trusting a deeper ground.
+      </p>
+
+      <p>
+        This structural similarity invites a further step. Rather than treating Tillich and Obidi as simply analogous, one can ask whether their ontologies can be integrated. If the power of being‑itself in Tillich’s theology and the entropic field in Obidi’s physics are both conceived as the ultimate ground of reality, then it becomes possible to see them as two descriptions of a single metaphysical fact. The courage of the self and the courage of physics would then be different expressions of one and the same participation in a universal field of being.
+      </p>
+    </section>
+
+    <!-- SECTION IV: ENTROPY AS UNIVERSAL FIELD OF BEING -->
+    <section>
+      <h2><span class="section-num">§ IV</span> Entropy as Universal Field of Being</h2>
+
+      <p>
+        The Theory of Entropicity provides the conceptual key for such an integration. In ToE, entropy is not a mere index of disorder or ignorance. It is the measure of how reality differentiates itself, the way in which possibilities are opened, explored, and transformed. The entropic field is the continuous substrate in which structures arise, persist for a time, and dissolve into new configurations. It is not an accidental byproduct of dynamics; it is the very medium of becoming.
+      </p>
+
+      <p>
+        When entropy is understood in this way, it begins to resemble what Tillich calls the power of being‑itself. Both notions refer to something that is not one being among others but the depth from which all beings emerge. Both function as the ultimate answer to the question of why there is anything rather than nothing, and why what exists can endure in the face of forces that threaten its dissolution. The entropic field, in Obidi’s ontology, is the physical articulation of this depth. It is the field in which the universe continually re‑creates itself.
+      </p>
+
+      <p>
+        This allows a reinterpretation of Tillich’s Courage to Be in entropic terms. The self that affirms its being in the face of nonbeing does so, on this reading, because it is rooted in an entropic universe that is itself committed, as it were, to ongoing differentiation and emergence. The courage of the person is a local expression of the universe’s own entropic dynamism. Conversely, Obidi’s Ontological Courage can be seen as the scientific recognition of this same dynamism at the level of theory. To affirm the entropic field as fundamental is to acknowledge that the universe’s capacity to generate and sustain being is not an illusion but the most basic fact of reality.
+      </p>
+
+      <p>
+        In this light, entropy ceases to be the enemy of order and becomes the condition of its possibility. The entropic field is what allows structures to form, information to be encoded, and life to arise. It is also what allows courage to be meaningful. For there could be no courage to affirm being if reality were not already endowed with a tendency to sustain and transform being. The Theory of Entropicity thus offers a universal ontology in which the existential drama of the self and the cosmological drama of the universe are two aspects of a single entropic process.
+      </p>
+    </section>
+
+    <!-- SECTION V: OBIDI'S SUBSUMPTION OF TILLICH -->
+    <section>
+      <h2><span class="section-num">§ V</span> The Subsumption of Tillich’s Ontology in Obidi’s Entropic Framework</h2>
+
+      <p>
+        The claim that Obidi’s philosophy subsumes Tillich’s is not a dismissal of Tillich’s achievement but an extension of it. Tillich’s analysis of courage reveals the structure of finite existence from the inside. It shows how the self can live authentically in the presence of death, guilt, and meaninglessness by participating in the power of being‑itself. Obidi’s analysis of Ontological Courage reveals the structure of reality from the outside. It shows how the universe can be understood coherently in the presence of fragmented theories and collapsing paradigms by grounding them in an entropic field.
+      </p>
+
+      <p>
+        When these two perspectives are brought together, a remarkable picture emerges. The self that Tillich describes is not an isolated island of being; it is a local configuration within an entropic cosmos. Its anxieties are real, but they occur within a universe whose very fabric is oriented toward differentiation and renewal. The courage to affirm one’s being is therefore not an arbitrary leap; it is a resonance with the universe’s own entropic tendency to sustain and transform being. In this sense, Tillich’s Courage to Be is implicitly entropic, even if it does not use that language.
+      </p>
+
+      <p>
+        Obidi’s Ontological Courage makes this implicit structure explicit. By identifying entropy as the universal field, ToE provides a physical ontology in which the power of being‑itself acquires a concrete, dynamical form. The entropic field is the medium in which both the self and the cosmos participate. The self’s courage to be and physics’ courage to rethink its foundations are two modes of the same underlying reality. Obidi’s triadic ARC—Audacity, Radicality, Courage—thus becomes a universal schema: it describes not only the scientist’s stance toward theory but also the self’s stance toward existence.
+      </p>
+
+      <p>
+        In this way, Obidi’s philosophy subsumes Tillich’s in a universal fashion. It does not erase the existential dimension but situates it within a broader ontological horizon. The redemption of the self from nonbeing and the redemption of the universe from conceptual nonbeing are shown to be aspects of a single entropic redemption: the continuous affirmation of being at every scale, from the interior life of the person to the large‑scale structure of the cosmos. The Theory of Entropicity is therefore not only a proposal in fundamental physics but a candidate for a universal ontology of courage.
+      </p>
+    </section>
+
+    <!-- SECTION VI: CONCLUSION -->
+    <section>
+      <h2><span class="section-num">§ VI</span> Conclusion: The Entropic Unity of Self and Cosmos</h2>
+
+      <p>
+        The comparative study of Paul Tillich’s theological ontology and John Onimisi Obidi’s physical ontology reveals more than a set of parallels between theology and physics. It reveals a shared structure of affirmation in the face of threat, a shared conviction that being is ultimately stronger than nonbeing. Tillich articulates this conviction at the level of the self, showing how the individual can live courageously under the shadow of death and meaninglessness. Obidi articulates it at the level of the universe, showing how physics can move beyond its fractured foundations by recognizing entropy as the universal field of being.
+      </p>
+
+      <p>
+        The Theory of Entropicity provides the conceptual bridge between these two perspectives. By treating entropy as the fundamental dynamical field from which spacetime, matter, and law emerge, ToE offers a picture of reality in which the courage of the self and the courage of science are grounded in the same ontological substrate. The entropic field is the power of being‑itself expressed in physical terms. It is the medium in which both persons and galaxies, both anxieties and equations, both theology and physics, find their place.
+      </p>
+
+      <p>
+        In the final analysis, Obidi’s Ontological Courage and Tillich’s Courage to Be are not competing accounts but complementary moments in a single story. The self that dares to exist and the universe that dares to unfold are participating in one entropic unity of being. To affirm this unity is to recognize that redemption is not only personal and not only cosmological, but both at once. The Theory of Entropicity, understood in this way, is a proposal for a universal ontology in which the being of the self and the being of the cosmos are reconciled in the dynamics of a single entropic field.
+      </p>
+    </section>
+
+    <section>
+<hr><br>
+  <h1><strong>Appendix</strong></h1>
+<h2>1. Comparative Table: The Two Ontologies of Courage</h2>
+
+      <table>
+  <tr>
+    <th>Dimension</th>
+    <th>Paul Tillich’s Theological Ontology</th>
+    <th>John Onimisi Obidi’s Physical Ontology</th>
+  </tr>
+  <tr>
+    <td><strong>Ground of Reality</strong></td>
+    <td>The <strong>Power of Being‑Itself</strong>, transcendent and existential.</td>
+    <td>The <strong>Entropic Field</strong>, immanent and universal.</td>
+  </tr>
+  <tr>
+    <td><strong>Nature of Courage</strong></td>
+    <td>Affirmation of the <strong>self’s being</strong> in the face of existential nonbeing.</td>
+    <td>Affirmation of the <strong>universe’s being</strong> in the face of epistemic nonbeing.</td>
+  </tr>
+  <tr>
+    <td><strong>Threat of Nonbeing</strong></td>
+    <td>Death, guilt, meaninglessness, existential anxiety.</td>
+    <td>Collapse of inherited primitives, fragmentation of physics, conceptual incoherence.</td>
+  </tr>
+  <tr>
+    <td><strong>Mode of Redemption</strong></td>
+    <td>Participation in the <strong>Ground of Being</strong>.</td>
+    <td>Participation in the <strong>Entropic Substrate</strong> that generates spacetime and matter.</td>
+  </tr>
+  <tr>
+    <td><strong>Scope of Courage</strong></td>
+    <td>Individual, existential, psychological.</td>
+    <td>Cosmic, ontological, structural.</td>
+  </tr>
+  <tr>
+    <td><strong>Final Outcome</strong></td>
+    <td>Redemption of the <strong>self</strong>.</td>
+    <td>Redemption of the <strong>cosmos</strong> and the self within it.</td>
+  </tr>
+</table>
+
+<h2>2. Diagram: The Entropic Subsumption of Tillich by Obidi</h2>
+
+<div class="diagram-box">
+  <div class="diagram-title">The Entropic Subsumption Diagram</div>
+  <p style="text-align:center; font-size:1.1rem;">
+    <strong>Tillich’s Courage to Be</strong><br>
+    (Affirmation of the Self)
+  </p>
+  <p style="text-align:center; font-size:1.4rem; color:#8f6f1d;">
+    ↓ is encompassed by ↓
+  </p>
+  <p style="text-align:center; font-size:1.1rem;">
+    <strong>Obidi’s Ontological Courage</strong><br>
+    (Affirmation of the Universe)
+  </p>
+  <p style="text-align:center; font-size:1.4rem; color:#8f6f1d;">
+    ↓ grounded in ↓
+  </p>
+  <p style="text-align:center; font-size:1.2rem;">
+    <strong>The Entropic Field as Universal Being</strong>
+  </p>
+</div>
+
+
+<h2>3. Table: The Triadic ARC vs. Tillich’s Existential Structure</h2>
+
+<table>
+  <tr>
+    <th>Structural Element</th>
+    <th>Tillich’s Ontology</th>
+    <th>Obidi’s ARC Framework</th>
+  </tr>
+  <tr>
+    <td><strong>Initial Crisis</strong></td>
+    <td>Encounter with <strong>existential anxiety</strong>.</td>
+    <td>Encounter with <strong>epistemic collapse</strong> in physics.</td>
+  </tr>
+  <tr>
+    <td><strong>First Movement</strong></td>
+    <td>Recognition of nonbeing.</td>
+    <td><strong>Audacity</strong>: questioning inherited primitives.</td>
+  </tr>
+  <tr>
+    <td><strong>Second Movement</strong></td>
+    <td>Acceptance of finitude.</td>
+    <td><strong>Radicality</strong>: rebuilding ontology from the entropic field.</td>
+  </tr>
+  <tr>
+    <td><strong>Third Movement</strong></td>
+    <td><strong>Courage to Be</strong>: affirmation of the self.</td>
+    <td><strong>Courage</strong>: affirmation of the universe as entropic.</td>
+  </tr>
+  <tr>
+    <td><strong>Final Ground</strong></td>
+    <td>The <strong>Power of Being‑Itself</strong>.</td>
+    <td>The <strong>Universal Entropic Field</strong>.</td>
+  </tr>
+</table>
+
+
+<h2>4. Conceptual Chart: The Two Axes of Being</h2>
+<div class="diagram-box">
+  <div class="diagram-title">Axes of Being in Tillich and Obidi</div>
+  <p><strong>Vertical Axis — Existential Being (Tillich)</strong><br>
+  The self confronts nonbeing and affirms its existence through participation in the power of being‑itself.</p>
+
+  <p><strong>Horizontal Axis — Cosmological Being (Obidi)</strong><br>
+  The universe confronts conceptual nonbeing and affirms its structure through the dynamics of the entropic field.</p>
+
+  <p style="text-align:center; margin-top:1.2rem; font-size:1.1rem;">
+    <strong>Intersection Point:</strong>  
+    The Entropic Field as the Universal Ground of Being
+  </p>
+</div>
+
+<h2>5. Table: Redemption of Self and Cosmos</h2>
+<table>
+  <tr>
+    <th>Level of Being</th>
+    <th>Threat</th>
+    <th>Form of Courage</th>
+    <th>Mode of Redemption</th>
+  </tr>
+  <tr>
+    <td><strong>Self (Tillich)</strong></td>
+    <td>Existential nonbeing: death, guilt, meaninglessness.</td>
+    <td>Affirmation of personal being.</td>
+    <td>Participation in the <strong>Ground of Being</strong>.</td>
+  </tr>
+  <tr>
+    <td><strong>Cosmos (Obidi)</strong></td>
+    <td>Epistemic nonbeing: collapse of physical primitives.</td>
+    <td>Affirmation of universal being.</td>
+    <td>Participation in the <strong>Entropic Field</strong>.</td>
+  </tr>
+  <tr>
+    <td><strong>Unified Ontology</strong></td>
+    <td>Fragmentation of meaning and structure.</td>
+    <td>Ontological Courage as universal act.</td>
+    <td>Recognition of entropy as the <strong>universal substrate</strong> of being.</td>
+  </tr>
+</table>
+
+<h2>6. Diagram: How Entropy Unifies Theology and Physics</h2>
+
+<div class="diagram-box">
+  <div class="diagram-title">Entropy as the Universal Bridge</div>
+
+  <p style="text-align:center;"><strong>Theology (Tillich)</strong></p>
+  <p style="text-align:center;">Being‑Itself → Courage to Be → Redemption of the Self</p>
+
+  <p style="text-align:center; font-size:1.4rem; color:#8f6f1d;">⇅</p>
+
+  <p style="text-align:center;"><strong>Physics (Obidi)</strong></p>
+  <p style="text-align:center;">Entropic Field → Ontological Courage → Redemption of the Cosmos</p>
+
+  <p style="text-align:center; margin-top:1.2rem; font-size:1.1rem;">
+    <strong>Unified Principle:</strong>  
+    Entropy as the Universal Power of Being
+  </p>
+</div>
+
+<h2>7. Table: The Final Subsumption Argument</h2>
+<table>
+  <tr>
+    <th>Tillich’s Ontology</th>
+    <th>Obidi’s Ontology</th>
+    <th>Unified Entropic Interpretation</th>
+  </tr>
+  <tr>
+    <td>The self affirms its being.</td>
+    <td>The universe affirms its being.</td>
+    <td>Both are expressions of the entropic field’s dynamism.</td>
+  </tr>
+  <tr>
+    <td>Being‑itself grounds existence.</td>
+    <td>Entropy grounds physical reality.</td>
+    <td>Entropy is the physical articulation of being‑itself.</td>
+  </tr>
+  <tr>
+    <td>Courage redeems the person.</td>
+    <td>Courage redeems ontology.</td>
+    <td>Redemption is universal: self + cosmos.</td>
+  </tr>
+</table>
+
+</section>
+
+<div class="ornamental-hr">— ✦ —</div>
+<div style="margin: 10px 0;">
+<p><strong>Zenodo Badge Strip</strong></p>
+  <a href="https://doi.org/10.5281/zenodo.20114386" target="_blank">
+    <img src="https://img.shields.io/badge/DOI-10.5281/zenodo.20114386-blue" alt="DOI: 10.5281/zenodo.20114386">
+  </a>
+
+  <a href="https://doi.org/10.5281/zenodo.20116039" target="_blank">
+    <img src="https://img.shields.io/badge/DOI-10.5281/zenodo.20116039-blue" alt="DOI: 10.5281/zenodo.20116039">
+  </a>
+
+  <a href="https://doi.org/10.17605/OSF.IO/H8WR3" target="_blank">
+    <img src="https://img.shields.io/badge/DOI-10.17605/OSF.IO/H8WR3-blue" alt="DOI: 10.17605/OSF.IO/H8WR3">
+  </a>
+<hr>
+
+<ol style="font-size: 1.1em; line-height: 1.6;">
+
+  <li>
+    <strong>The Theory of Entropicity (ToE) — The Official Canonical Archives (TOCA) on GitHub/Cloudflare Pages Website:</strong><br>
+    <a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/" target="_blank">
+      https://entropicity.github.io/Theory-of-Entropicity-ToE/
+    </a>
+  </li>
+
+  <li>
+    <strong>The Theory of Entropicity (ToE) on Google Live Website:</strong><br>
+    <a href="https://theoryofentropicity.blogspot.com" target="_blank">
+      https://theoryofentropicity.blogspot.com
+    </a>
+  </li>
+
+  <li>
+    <strong>The Theory of Entropicity (ToE) on Substack:</strong><br>
+    <a href="https://open.substack.com/pub/johnobidi" target="_blank">
+      https://open.substack.com/pub/johnobidi
+    </a>
+  </li>
+
+  <li>
+    <strong>The Theory of Entropicity (ToE) on Medium:</strong><br>
+    <a href="https://medium.com/@jonimisiobidi" target="_blank">
+      https://medium.com/@jonimisiobidi
+    </a>
+  </li>
+
+  <li>
+    <strong>The Theory of Entropicity (ToE) on NOTD.io:</strong><br>
+    <a href="https://notd.io/s/theoryofentropicity" target="_blank">
+      https://notd.io/s/theoryofentropicity
+    </a>
+  </li>
+
+  <li>
+    <strong>The Theory of Entropicity (ToE) on LinkedIn:</strong><br>
+    <a href="https://www.linkedin.com/company/theory-of-entropicity-toe" target="_blank">
+      https://www.linkedin.com/company/theory-of-entropicity-toe
+    </a>
+  </li>
+
+  <li>
+    <strong>The Theory of Entropicity (ToE) on YouTube:</strong><br>
+    <a href="https://www.youtube.com/@TheoryofEntropicityToE" target="_blank">
+      https://www.youtube.com/@TheoryofEntropicityToE
+    </a>
+  </li>
+
+</ol>
+    <footer>
+      <p>The Entropic Unity of Being</p>
+      <p>Comparative Ontology of Obidi and Tillich · Theory of Entropicity (ToE) · 2026</p>
+       <p>A Monograph-Grade Exposition</p>
+      <p>Theory of Entropicity — John Onimisi Obidi · theoryofentropicity.blogspot.com</p>
+    </footer>
+
+  </div>
+
+    <br>
+
+  <hr>
+
+  <p><a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/index.html">← Back to Home</a></p>
+
+  <footer>
+    © 2025–<span id="year"></span> The Theory of Entropicity (ToE) Research Lab, The Aether — All rights reserved.
+  </footer>
+
+</div>
+
+<script>
+  const foundingYear = 2025;
+  const currentYear = new Date().getFullYear();
+  document.getElementById("year").textContent = currentYear;
+</script>
+</body>
+</html>

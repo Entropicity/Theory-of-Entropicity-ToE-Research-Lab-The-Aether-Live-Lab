@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Foundational Philosophy Behind John Onimisi Obidi's Formulation of the Theory of Entropicity (ToE)</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Josefin+Sans:wght@200;300;400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f0e8;
+    --cream: #ede7d5;
+    --gold: #8f6f1d;
+    --gold-light: #8c6f1d;
+    --muted: #6b6355;
+    --rule: #c8bfa8;
+    --accent: #2a2318;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { font-size: 18px; scroll-behavior: smooth; }
+
+  body {
+    background-color: var(--paper);
+    color: var(--ink);
+    font-family: 'EB Garamond', Georgia, serif;
+    line-height: 1.75;
+    min-height: 100vh;
+  }
+
+  /* Grain overlay */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 999;
+    opacity: 0.4;
+  }
+
+  .page-wrap {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 4rem 2rem 8rem;
+  }
+
+  /* Header */
+  header {
+    text-align: center;
+    padding: 5rem 0 3rem;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 3.5rem;
+    animation: fadeDown 1.2s ease both;
+  }
+
+  .journal-label {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: 0.65rem;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 2rem;
+  }
+
+  h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: clamp(1.9rem, 5vw, 3rem);
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: var(--accent);
+    margin-bottom: 1.5rem;
+  }
+
+  h1 em {
+    font-style: italic;
+    color: var(--gold);
+  }
+
+  .subtitle {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 2.5rem;
+  }
+
+  .ornament {
+    color: var(--gold);
+    font-size: 1.4rem;
+    letter-spacing: 0.5em;
+    opacity: 0.7;
+  }
+
+  /* Section headings */
+  h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 1.55rem;
+    color: var(--accent);
+    margin: 3.5rem 0 1.2rem;
+    letter-spacing: 0.01em;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  h2 .section-num {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: 0.7rem;
+    letter-spacing: 0.25em;
+    color: var(--gold);
+    display: block;
+    margin-bottom: 0.3rem;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: var(--accent);
+    margin: 2.2rem 0 0.8rem;
+  }
+
+  /* Body text */
+  p {
+    margin-bottom: 1.3rem;
+    font-size: 1rem;
+    color: #1a1612;
+    text-align: justify;
+    hyphens: auto;
+  }
+
+  p + p { text-indent: 1.5em; }
+
+  /* Drop cap */
+  .dropcap::first-letter {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 4.2rem;
+    line-height: 0.75;
+    float: left;
+    margin-right: 0.1em;
+    margin-top: 0.12em;
+    color: var(--gold);
+  }
+
+  /* Pull quote */
+  blockquote {
+    margin: 2.5rem 0;
+    padding: 1.5rem 2rem;
+    border-left: 3px solid var(--gold);
+    background: var(--cream);
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: var(--accent);
+    line-height: 1.6;
+  }
+
+  blockquote cite {
+    display: block;
+    margin-top: 0.8rem;
+    font-style: normal;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Math display */
+  .math-display {
+    background: var(--cream);
+    border: 1px solid var(--rule);
+    border-top: 2px solid var(--gold);
+    padding: 1.5rem 2rem;
+    margin: 2rem 0;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3rem;
+    color: var(--accent);
+  }
+
+  .math-display .eq-label {
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: 0.6rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.7rem;
+  }
+
+  /* Horizontal rule */
+  hr {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 3rem 0;
+  }
+
+  .ornamental-hr {
+    text-align: center;
+    color: var(--gold);
+    font-size: 1rem;
+    letter-spacing: 1em;
+    margin: 2.5rem 0;
+    opacity: 0.6;
+  }
+
+  /* Footer */
+  footer {
+    margin-top: 5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--rule);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-align: center;
+    line-height: 2;
+  }
+
+  /* Animations */
+  @keyframes fadeDown {
+    from { opacity: 0; transform: translateY(-18px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .article-body {
+    animation: fadeUp 1.4s ease 0.3s both;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(14px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    .page-wrap { padding: 2rem 1.2rem 5rem; }
+    header { padding: 3rem 0 2rem; }
+    blockquote { padding: 1rem 1.2rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page-wrap">
+
+    <nav>
+  <p>
+    <a href="../philosophy/index.html">← Back to Philosophy Homepage</a>
+  </p>
+</nav>
+
+<hr>
+  
+  <header>
+      <p class="journal-label">Theoretical Physics &nbsp;·&nbsp; History and Philosophy of Science &nbsp;·&nbsp; May 15, 2026</p>
+
+  <h1 style="line-height: 1.25;">
+  <span style="display:block;">The Foundational Philosophy Behind</span>
+  <span style="display:block;">John Onimisi Obidi's Formulation of the</span>
+  <span style="display:block;"><em>Theory of Entropicity</em> (ToE)</span>
+  </h1>
+     <p class="subtitle">A Philosophical Expose in Juxtaposition With Paul Tillich's Ontological Theology of "the Courage to Be"</p>
+    <div class="ornament">— ✦ —</div>
+  </header>
+
+  <div class="article-body">
+
+    <!-- ABSTRACT -->
+<section>
+  <p class="dropcap">
+    This paper presents the foundational philosophical and theoretical architecture of the Theory of Entropicity (ToE), formulated by John Onimisi Obidi, which posits entropy as the fundamental field and causal substrate of physical reality. Rather than treating spacetime, gravity, quantum behavior, and cosmological structure as primitive givens, ToE derives them as emergent consequences of a dynamic entropic manifold governed by distinguishability, curvature, and informational flow. The work advances a unified entropic ontology that dissolves the long‑standing incompatibility between general relativity and quantum mechanics by re‑anchoring both within a single informational substrate. Through the Obidi Action, the Obidi Curvature Invariant, and the dual quantization architecture of distinguishability and dynamical entropic action, the theory reconstructs the foundations of physics from first principles. This abstract outlines the philosophical motivations, the ontological commitments, and the structural innovations that position ToE as a comprehensive entropic reformulation of fundamental physics.
+  </p>
+</section>
+
+
+    <!-- SECTION I -->
+    <section>
+      <h2><span class="section-num">§ I</span> An Introduction to John Onimisi Obidi's Philosophy</h2>
+
+      <p>The philosophy behind <strong>John Onimisi Obidi’s</strong> formulation of the Theory of Entropicity (ToE) centers around the idea that <strong>entropy is the fundamental field and causal substrate of physical reality.</strong> Obidi’s approach is not just a technical shift but a philosophical one, demanding the confidence to question the ontological commitments of modern physics. In this sense, ToE is conceived not merely as a new model within existing paradigms, but as a re-foundation of those paradigms on an explicitly entropic basis, where informational and entropic structure precede and generate the familiar kinematic and dynamic structures of conventional theories.</p>
+
+<p>He argues that everything, including <strong>spacetime, gravity,</strong> and <strong>quantum phenomena,</strong> emerges from a dynamic entropic field. <strong>This shift from a particle-based or geometric view of the universe to an entropy-centric one is a central philosophical insight of his theory.</strong> In Obidi’s framework, what earlier theories treated as ontological primitives—such as particles, fields, and spacetime metrics—are reinterpreted as emergent manifestations of deeper entropic relations, with distinguishability, curvature, and informational flow playing the primary role in determining what can exist and how it can evolve.</p>
+
+<p>Obidi’s work is distinguished by a combination of <strong>theoretical rigor</strong> and <strong>ontological courage,</strong> as it challenges the established metaphysical scaffolding of twentieth-century physics and proposes a unified <strong>entropic ontology</strong> capable of generating geometry, curvature, quantum behavior, and cosmological structure as emergent phenomena rather than as postulated primitives. This ontological courage is expressed in his willingness to treat even the most entrenched assumptions of physics—such as the fundamentality of spacetime or the primitiveness of probability—as provisional, subject to replacement by a more coherent entropic substrate that can derive them as theorems rather than assume them as axioms.</p>
+
+<p>Obidi’s intellectual trajectory reflects a <strong>nonvolitional convergence of reasoning,</strong> leading to the formulation of the <strong>entropic field</strong> as the underlying substrate from which <strong>geometry, curvature, quantum behavior,</strong> and <strong>cosmological structure</strong> emerge as induced phenomena. This convergence is marked by a systematic re-interpretation of results from information theory, statistical mechanics, and differential geometry, all pointing toward the same conclusion: that the most stable and explanatory ontology is one in which entropy and distinguishability form the basic fabric, and all familiar physical structures arise as organized patterns within that fabric.</p>
+
+<p>His contributions span entropic geometry, induced curvature, emergent quantum dynamics, and the resolution of the <strong>GR–QM incompatibility</strong> through a <strong>unified informational manifold (UIM).</strong> Within this manifold, general relativity and quantum mechanics are no longer seen as rival descriptions but as different regimes of one entropic field, with classical geometry corresponding to high-distinguishability limits and quantum behavior corresponding to low-distinguishability, ℏ-dominated regimes. In this way, the long-standing tension between GR and QM is reframed as a symptom of having treated emergent structures as fundamental, a tension that dissolves once both are recognized as entropic consequences of a single underlying substrate.</p>
+
+<p>Obidi’s work positions him among <strong>contemporary theorists</strong> who are not merely extending existing frameworks but are <strong>actively reconstructing the ontological foundations of physics by re-anchoring them in a single entropic substrate.</strong> This reconstruction is not a cosmetic revision but a deep reorganization of what counts as fundamental in physical theory, with entropy, information, and distinguishability taking precedence over particles, fields, and spacetime. In doing so, his Theory of Entropicity offers both a unifying conceptual language for foundational physics and a new philosophical lens through which the history and future of physical theory can be understood.</p>
+
+      <blockquote>
+        "To articulate the Theory of Entropicity required an unusual form of ontological courage: the willingness to abandon the inherited primitives of modern physics — spacetime as fundamental, quantum states as axiomatic, geometry as given — and to replace them with a single entropic field substrate from which all physical structure emerges."
+        <cite>— John Onimisi Obidi, The ToE Canonical Archives, 2026</cite>
+      </blockquote>
+    </section>
+
+    <!-- SECTION II -->
+    <section>
+      <h2><span class="section-num">§ II</span> The Ontological Triadic ARC: Audacity, Radicality, Courage</h2>
+
+      <p>At the heart of Obidi’s philosophical architecture lies what may be called the <strong>Ontological Triadic ARC</strong> — the interlocking virtues of <strong>Audacity</strong>, <strong>Radicality</strong>, and <strong>Courage</strong>. These are not rhetorical flourishes but structural dispositions required to reconceive the foundations of physics. Obidi’s ARC is a philosophical engine: a triadic posture toward reality that allows him to question, dismantle, and reconstruct the ontological commitments of modern science. Where twentieth‑century physics inherited a patchwork of primitives — spacetime, particles, fields, forces, constants — Obidi’s ARC enables a return to first principles, asking what must exist for physics to exist at all. The answer, in his formulation, is the <em>entropic field</em>: the primordial substrate from which geometry, curvature, quantum behavior, and cosmological structure emerge as induced phenomena.</p>
+      
+  
+     
+</section>
+
+    <!-- SECTION III -->
+    <section>
+      <h2><span class="section-num">§ III</span> Audacity: The Right to Question the Ontological Defaults of Physics</h2>
+
+      <p>
+  <p>Obidi’s <strong>Ontological Audacity</strong> is the willingness to interrogate the unquestioned assumptions of physics — not merely its equations, but its <em>ontology</em>. This audacity is not recklessness; it is the disciplined refusal to accept inherited metaphysical scaffolding as final. In classical physics, space and time are givens; in quantum mechanics, the Hilbert space is given; in general relativity, the metric is given; in statistical mechanics, probability is given. Obidi’s audacity lies in asking whether these givens are <em>necessary</em> or merely <em>historical conveniences</em>. His answer is uncompromising: none of them are fundamental. They are emergent shadows cast by a deeper entropic substrate. This audacity is the first step in the ARC — the intellectual permission to imagine a universe whose foundations differ radically from the one inherited from Newton, Einstein, and Bohr.</p>
+</section>
+
+      
+    <!-- SECTION IV -->
+    <section>
+      <h2><span class="section-num">§ IV</span> Radicality: The Commitment to Rebuild, Not Modify</h2>
+
+     <p>If audacity grants the right to question, <strong>Ontological Radicality</strong> grants the commitment to rebuild. Obidi’s radicality is not the pursuit of novelty for its own sake; it is the recognition that incremental modifications cannot resolve the structural tensions between general relativity and quantum mechanics. The incompatibility is not technical but ontological. GR assumes a smooth geometric manifold; QM assumes a probabilistic informational manifold. These are not two descriptions of one thing — they are two incompatible metaphysical commitments. Obidi’s radicality lies in discarding both as primitives and reconstructing them as <em>entropic consequences</em>. Geometry becomes induced curvature; quantum behavior becomes low‑distinguishability dynamics; cosmology becomes large‑scale entropic flow. Radicality, in this sense, is the refusal to patch; it is the insistence on rebuilding the conceptual edifice from the ground up.</p>
+      
+    </section>
+
+    <!-- SECTION V -->
+    <section>
+      <h2><span class="section-num">§ V</span> Courage: Obidi’s Ontological Courage vs. Tillich’s Courage to Be</h2>
+
+      <p>It is in the third virtue — <strong>Ontological Courage</strong> — that Obidi’s philosophy reaches its deepest divergence from the existential tradition, particularly from Paul Tillich’s celebrated <em>Courage to Be</em>. Tillich’s courage is existential: the affirmation of one’s being in the face of non‑being, anxiety, and finitude. It is a human, psychological, and theological category. Obidi’s courage is of an entirely different order. It is <em>ontological</em> in the strict philosophical sense: the courage to affirm a new ontology of the universe even when it contradicts the deepest intuitions of physics, mathematics, and metaphysics. Tillich’s courage is about the self; Obidi’s courage is about reality. Tillich’s courage affirms existence; Obidi’s courage redefines it. Tillich’s courage confronts the void; Obidi’s courage replaces the void with an entropic field whose structure is mathematically derivable and physically generative. In this sense, Obidi’s Ontological Courage is not existential bravery but metaphysical responsibility — the willingness to articulate a new foundation for physics even when it overturns centuries of accumulated conceptual comfort.</p>
+    </section>
+
+    <!-- SECTION VI -->
+    <section>
+      <h2><span class="section-num">§ VI</span> Why Obidi’s Ontological Courage Is Historically Distinct</h2>
+
+      <p>Obidi’s courage is historically unique because it operates at the level where physics, metaphysics, and information theory intersect. It is the courage to claim that the universe is not built from particles, fields, or spacetime, but from <em>distinguishability</em> and <em>entropic curvature</em>. It is the courage to assert that probability is not a primitive but a conservation law; that geometry is not fundamental but induced; that quantum mechanics is not mysterious but the low‑distinguishability limit of a deeper entropic dynamics. This is not the courage to endure uncertainty; it is the courage to eliminate it by proposing a coherent, unified ontology capable of generating the known laws of physics as emergent theorems. In this sense, Obidi’s courage is closer to the intellectual audacity of Einstein’s 1905 papers or Riemann’s 1854 lecture than to any existentialist tradition. It is the courage to <em>redefine what exists</em>.</p>
+    </section>
+
+    <!-- SECTION VII -->
+    <section>
+      <h2><span class="section-num">§ VII</span> The ARC as a Philosophical Engine for Scientific Reconstruction</h2>
+
+     <p>The Ontological Triadic ARC is not merely a philosophical posture; it is the methodological engine that drives the Theory of Entropicity. Audacity opens the conceptual space; radicality clears the inherited scaffolding; courage constructs the new ontology. Without audacity, ToE would remain unthinkable; without radicality, it would remain unattempted; without courage, it would remain unarticulated. Together, the ARC enables a reconstruction of physics in which entropy is not a statistical afterthought but the fundamental field. This reconstruction is not a modification of existing theories but a re‑anchoring of the entire physical universe in a single entropic substrate. The ARC is thus both the philosophical foundation and the intellectual temperament of ToE — the triadic virtue structure that makes the theory possible.</p>
+
+     
+    </section>
+
+    <!-- SECTION VIII -->
+    <section>
+      <h2><span class="section-num">§ VIII</span> The ARC and the Historico‑Philosophical Lineage of Scientific Revolutions</h2>
+
+     <p>Historians of science will recognize in Obidi’s ARC a pattern characteristic of the great conceptual revolutions: Riemann’s redefinition of geometry, Einstein’s redefinition of simultaneity, Dirac’s redefinition of the electron, and Shannon’s redefinition of information. Each required a triad of virtues: the audacity to question, the radicality to rebuild, and the courage to assert a new ontology. But Obidi’s ARC differs in one crucial respect: it is <em>explicit</em>. Where earlier revolutionaries embodied these virtues implicitly, Obidi articulates them as a philosophical framework guiding the reconstruction of physics. This explicitness gives ToE a self‑awareness rare in the history of science: it knows the virtues required for its own existence. In this sense, the ARC is not merely descriptive but constitutive — it is the philosophical DNA of the Theory of Entropicity.</p>
+    </section>
+
+    <div class="ornamental-hr">✦ &nbsp; ✦ &nbsp; ✦</div>
+
+    <!-- CONCLUSION -->
+    <section>
+      <h2><span class="section-num">§ IX</span> Conclusion: The ARC as the New Ontological Grammar of Foundational Physics</h2>
+
+     <p>In the final analysis, John Onimisi Obidi’s Ontological Triadic ARC — <strong>Audacity</strong>, <strong>Radicality</strong>, and <strong>Courage</strong> — stands not merely as a philosophical accompaniment to the Theory of Entropicity, but as its generative grammar. It is the triadic structure that makes the theory thinkable, articulable, and scientifically inevitable. Audacity opens the conceptual horizon by refusing to treat inherited primitives as sacred. Radicality clears the metaphysical ground by dismantling the scaffolding of twentieth‑century physics. Courage constructs the new ontology by affirming the entropic field as the primordial substrate of reality. Together, these three virtues form a philosophical engine capable of powering a reconstruction of physics at the deepest ontological level.</p>
+
+<p>What distinguishes Obidi’s ARC from earlier philosophical frameworks is its <em>explicitness</em> and its <em>operationality</em>. It is not a metaphor, not a psychological disposition, and not an existential posture. It is a methodological architecture for scientific revolution. Where Paul Tillich’s “courage to be” concerns the existential affirmation of the self in the face of non‑being, Obidi’s Ontological Courage concerns the metaphysical affirmation of a new ontology in the face of entrenched scientific tradition. Tillich’s courage is inward; Obidi’s is structural. Tillich’s courage preserves being; Obidi’s redefines it. In this sense, Obidi’s ARC is not an extension of existentialism but a new category altogether — a philosophy of scientific genesis, a theory of how new ontologies come into the world.</p>
+
+<p>For historians of science, the ARC provides a rare window into the internal logic of conceptual transformation. It reveals how a theory like ToE does not emerge from incremental refinement but from a triadic posture toward reality that permits the re‑anchoring of physics in a single entropic substrate. For philosophers, the ARC offers a new model of ontological inquiry — one that treats metaphysics not as a static catalogue of categories but as a dynamic field capable of being re‑written when the structure of reality demands it. And for physicists, the ARC provides the intellectual scaffolding necessary to understand why the entropic field is not merely a mathematical convenience but the fundamental causal substrate from which geometry, curvature, quantum behavior, and cosmological structure emerge.</p>
+
+<p>In this light, the Theory of Entropicity is not simply a new physical theory; it is a new <em>ontological orientation</em>. It is a re‑founding of physics on informational and entropic principles rather than geometric or particulate ones. And the ARC is the philosophical temperament that makes such a re‑founding possible. It is the triadic virtue structure that allows a thinker to step outside the inherited metaphysics of physics and articulate a new one with clarity, rigor, and conceptual inevitability. In this sense, Obidi’s ARC is not merely the philosophical background of ToE — it is its ontological destiny. It is the grammar through which the universe becomes intelligible as an entropic field, and through which the next era of foundational physics may well be written.</p>
+    </section>
+
+    <div class="ornamental-hr">— ✦ —</div>
+<div style="margin: 10px 0;">
+<p><strong>Zenodo Badge Strip</strong></p>
+  <a href="https://doi.org/10.5281/zenodo.20114386" target="_blank">
+    <img src="https://img.shields.io/badge/DOI-10.5281/zenodo.20114386-blue" alt="DOI: 10.5281/zenodo.20114386">
+  </a>
+
+  <a href="https://doi.org/10.5281/zenodo.20116039" target="_blank">
+    <img src="https://img.shields.io/badge/DOI-10.5281/zenodo.20116039-blue" alt="DOI: 10.5281/zenodo.20116039">
+  </a>
+
+  <a href="https://doi.org/10.17605/OSF.IO/H8WR3" target="_blank">
+    <img src="https://img.shields.io/badge/DOI-10.17605/OSF.IO/H8WR3-blue" alt="DOI: 10.17605/OSF.IO/H8WR3">
+  </a>
+<hr>
+
+<ol style="font-size: 1.1em; line-height: 1.6;">
+
+  <li>
+    <strong>The Theory of Entropicity (ToE) — The Official Canonical Archives (TOCA) on GitHub/Cloudflare Pages Website:</strong><br>
+    <a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/" target="_blank">
+      https://entropicity.github.io/Theory-of-Entropicity-ToE/
+    </a>
+  </li>
+
+  <li>
+    <strong>The Theory of Entropicity (ToE) on Google Live Website:</strong><br>
+    <a href="https://theoryofentropicity.blogspot.com" target="_blank">
+      https://theoryofentropicity.blogspot.com
+    </a>
+  </li>
+
+  <li>
+    <strong>The Theory of Entropicity (ToE) on Substack:</strong><br>
+    <a href="https://open.substack.com/pub/johnobidi" target="_blank">
+      https://open.substack.com/pub/johnobidi
+    </a>
+  </li>
+
+  <li>
+    <strong>The Theory of Entropicity (ToE) on Medium:</strong><br>
+    <a href="https://medium.com/@jonimisiobidi" target="_blank">
+      https://medium.com/@jonimisiobidi
+    </a>
+  </li>
+
+  <li>
+    <strong>The Theory of Entropicity (ToE) on NOTD.io:</strong><br>
+    <a href="https://notd.io/s/theoryofentropicity" target="_blank">
+      https://notd.io/s/theoryofentropicity
+    </a>
+  </li>
+
+  <li>
+    <strong>The Theory of Entropicity (ToE) on LinkedIn:</strong><br>
+    <a href="https://www.linkedin.com/company/theory-of-entropicity-toe" target="_blank">
+      https://www.linkedin.com/company/theory-of-entropicity-toe
+    </a>
+  </li>
+
+  <li>
+    <strong>The Theory of Entropicity (ToE) on YouTube:</strong><br>
+    <a href="https://www.youtube.com/@TheoryofEntropicityToE" target="_blank">
+      https://www.youtube.com/@TheoryofEntropicityToE
+    </a>
+  </li>
+
+</ol>
+
+ <footer>
+      <p>The Foundational Philosophy Behind John Onimisi Obidi's Formulation of the Theory of Entropicity (ToE)</p>
+      <p>A Philosophical Expose in Juxtaposition With Paul Tillich's Ontological Theology of the Courage to Be &nbsp;·&nbsp; May 15, 2026</p>
+      <p>Theory of Entropicity — John Onimisi Obidi &nbsp;·&nbsp; theoryofentropicity.blogspot.com</p>
+    </footer>
+
+</div>
+  <hr>
+  <p><a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/
+index.html">← Back to Home</a>
+</p>
+<footer>
+  © 2025–<span id="year"></span> The Theory of Entropicity (ToE) Research Lab, The Aether — All rights reserved.
+</footer>
+
+<script>
+  // Always keep 2025 as the founding year
+  const foundingYear = 2025;
+
+  // Get the current year dynamically
+  const currentYear = new Date().getFullYear();
+
+  // Insert the current year into the footer
+  document.getElementById("year").textContent = currentYear;
+</script>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

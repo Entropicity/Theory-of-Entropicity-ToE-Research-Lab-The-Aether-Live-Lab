@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} — Theory of Entropicity</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {% include metadata.html %}
+ <link rel="stylesheet" href="/Theory-of-Entropicity-ToE/assets/css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <!--<h1>The Theory of Entropicity</h1>-->
+     <!--{% include nav.html %}-->
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <!--<footer>
+    <p>&copy; <span id="year"></span> John Onimisi Obidi — Theory of Entropicity (ToE)</p>-->
+</footer>
+
+<script>
+    <!--document.getElementById("year").textContent = new Date().getFullYear();-->
+</script>
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\
+
+\[','\\]
+
+']]
+    }
+  };
+</script>
+
+
+<script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+
+
+</body>
+</html>

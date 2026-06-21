@@ -1,0 +1,43 @@
+title: "Theory of Entropicity (ToE)"
+description: "Canonical archive of the Theory of Entropicity"
+theme: minima
+markdown: kramdown
+
+kramdown:
+  math_engine: mathjax
+  math_engine_opts:
+    preview: false
+  parse_block_html: true
+  syntax_highlighter_opts:
+    disable: true
+  input: GFM
+
+# --- Collections ---
+collections:
+  chapters:
+    output: true
+    permalink: /chapters/:name/
+  concepts:
+    output: true
+    permalink: /concepts/:name/
+  equations:
+    output: true
+    permalink: /equations/:name/
+  notes:
+    output: true
+    permalink: /notes/:name/
+  diagrams:
+    output: true
+    permalink: /diagrams/:name/
+  papers:
+    output: true
+    permalink: /papers/:name/
+
+# --- Default layout ---
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# rebuild

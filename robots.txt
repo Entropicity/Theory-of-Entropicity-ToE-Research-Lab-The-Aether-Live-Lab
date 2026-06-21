@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://entropicity.github.io/Theory-of-Entropicity-ToE/sitemap.xml

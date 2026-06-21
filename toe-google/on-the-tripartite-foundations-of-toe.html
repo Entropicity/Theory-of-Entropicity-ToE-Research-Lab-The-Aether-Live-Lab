@@ -1,0 +1,782 @@
+---
+layout: default
+title: "ToE-Google: ToE-Google Resources on the Theory of Entropicity (ToE) - Placeholder"
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Theory of Entropicity (ToE) — TITLE_HERE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+<!-- Your responsive sidebar fix --> 
+<style> 
+  @media (max-width: 768px) { 
+  .sidebar { 
+  position: relative; 
+  width: 100%; 
+  float: none; 
+  margin-bottom: 20px; 
+  } 
+  .content { 
+  margin-left: 0 !important; 
+  } 
+} 
+
+</style>
+
+<style>
+.toe-layout {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.toe-left {
+  width: 28%;
+  min-width: 220px;
+}
+
+.toe-right {
+  width: 72%;
+  min-width: 400px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+@media (max-width: 900px) {
+  .toe-layout {
+    flex-direction: column;
+  }
+  .toe-left, .toe-right {
+    width: 100%;
+    min-width: 100%;
+  }
+}
+</style>
+
+  <style>
+/* Expand the main page width */
+.page-container, .content, main {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0 20px; /* small left/right margin */
+}
+
+/* Optional: remove any theme-imposed width limits */
+body {
+    max-width: 100%;
+}
+</style>
+
+
+<!-- ============================
+     THEORY OF ENTROPICITY (ToE)
+     CUSTOM CSS THEME
+     ============================ -->
+<style>
+
+/* Global Typography */
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #222;
+}
+
+/* Page Container */
+.page-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1400px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  padding: 20px;
+  background: #ffffff;
+  border-right: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/* Main Content */
+.content {
+  flex: 1;
+  padding: 40px;
+  background: #ffffff;
+  margin-left: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: 600;
+  color: #0a3d62;
+}
+
+h1 {
+  font-size: 32px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 26px;
+  margin-top: 40px;
+}
+
+h3 {
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+/* Figures */
+figure {
+  background: #f4f7fb;
+  padding: 15px;
+  border-left: 4px solid #0a3d62;
+  margin: 25px 0;
+}
+
+figcaption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Blockquote */
+blockquote {
+  border-left: 4px solid #0a3d62;
+  padding-left: 15px;
+  margin-left: 0;
+  color: #444;
+  font-style: italic;
+}
+
+/* Mobile Responsive */
+@media (max-width: 900px) {
+  .page-container {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+  .content {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+</style>
+</head>
+
+  <script>
+    MathJax = {
+      tex: { inlineMath: [['\\(','\\)']], displayMath: [['\
+
+\[','\\]
+
+']] }
+    };
+  </script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body>
+
+<header>
+  <h1>Theory of Entropicity (ToE)</h1>
+   <nav>
+<a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/index.html">Home</a>
+<a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/preface.html">Preface</a>
+
+<a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/ch1-introduction.html">Introduction</a>
+<a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/ch2-entropy-field.html">The Entropic Field</a>
+<a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/ch3-obidi-action.html">Obidi Action Principle</a>
+<a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/ch4-spectral-formulation.html">Spectral Formulation</a>
+<a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/ch5-poler-and-second-law.html">PoLER & Second Law</a>
+
+<a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/ch6-implications.html">Implications</a>
+<a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/ch7-applications.html">Applications</a>
+<a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/ch8-literature-studies.html">Literature Studies</a>
+<a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/ch9-comparative-frameworks.html">Comparative Frameworks</a>
+<a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/ch10-open-problems.html">Open Problems & Future Directions</a>
+
+<a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/appendices.html">Appendices</a>
+<a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/references.html">References</a>
+  </nav>
+</header>
+<hr>
+
+<!-- =============================================
+   THEORY OF ENTROPICITY (ToE)
+   Visit ToE-Google Resources and Blog Archives
+   ============================================= -->
+<hr>
+
+<div class="toe-layout">
+
+  <!-- LEFT COLUMN: LINKS -->
+  <div class="toe-left">
+    <h3>Visit ToE-Google Resources and Archives:</h3>
+   <ol style="text-align: left; padding-left: 20px;">
+
+  <li>
+    <a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/toe-google/toe-ambitious-and-promising.html" target="_blank">
+      Foundations of the Theory of Entropicity (ToE): Ambitious and Promising at Once
+    </a>
+  </li>
+
+  <li>
+    <a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/toe-google/toe-rigorous-derivation-of-newton-laws-from-oci.html" target="_blank">
+      A Rigorous Derivation of Newton’s Laws from the Obidi Curvature Invariant (OCI = ln 2) of ToE
+    </a>
+  </li>
+
+<li>
+    <a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/toe-google/power-and-significance-of-ln2-in-toe.html" target="_blank">
+      Power and Significance of ln 2 in the Theory of Entropicity (ToE)
+    </a>
+  </li>
+<li>
+    <a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/toe-google/on-the-tripartite-foundations-of-toe.html" target="_blank">
+      On the Tripartite Foundations of the Theory of Entropicity (ToE): Prolegomena to Physics
+    </a>
+  </li>
+<li>
+    <a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/toe-google/convexity-additivity-derivation-of-oci-ln2-of-toe.html" target="_blank">
+      Derivation of the ToE Curvature Invariant ln 2 Using Convexity and KL (Araki-Umegaki) Divergence
+    </a>
+  </li>
+
+<li>
+    <a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/toe-google/toe-foundation-gr-to-qm-and-beyond.html" target="_blank">
+      On the Foundational and Unification Achievements of the Theory of Entropicity (ToE): From GR to QM and Beyond
+    </a>
+  </li>
+
+<li>
+    <a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/toe-google/toe-entropic-gravity-bianconi-einstein-gr-qm-unification.html" target="_blank">
+      On the Unification Efforts of the <strong>Theory of Entropicity (ToE)</strong>: Mathematical Expositions and Trajectory
+    </a>
+  </li>
+
+<li>
+    <a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/toe-google/toe-as-a-new-foundational-edifice-of-physics.html" target="_blank">
+      The <strong>Theory of Entropicity (ToE)</strong> as a New Foundational Edifice of Physics
+    </a>
+  </li>
+
+<li>
+    <a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/toe-google/monograph-architecture-of-the-theory-of-entropicity.html" target="_blank">
+      Monograph Architecture of the <strong>Theory of Entropicity (ToE)</strong> 
+    </a>
+  </li>
+
+<li>
+    <a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/toe-google/iterative-solutions-of-the-obidi-field-equations-of-toe.html" target="_blank">
+      Iterative Solutions of the Complex Obidi Field Equations (OFE) of the <strong>Theory of Entropicity (ToE)</strong> 
+    </a>
+  </li>
+</ol>
+
+    
+  </div>
+
+  <!-- RIGHT COLUMN: CONTENT -->
+  <div class="toe-right">
+    <h3>Content Area</h3>
+<section id="intro">
+
+<h1>On the Tripartite Foundations of the Theory of Entropicity (ToE): Prolegomena to a New Foundation of Physics and Our Understanding of the Universe</h1>
+
+<p>
+At its deepest level, the Theory of Entropicity (ToE) rests on three tightly interlocked principles. These principles are not independent hypotheses added ad hoc; rather, they form a coherent ontological structure from which the remaining results of the theory follow naturally.
+</p>
+
+</section>
+
+
+
+<section id="pillars">
+
+<h1>The Three Foundational Pillars of the Theory of Entropicity (ToE)</h1>
+
+<h2>1. Entropy as a Universal Physical Field</h2>
+
+<p>
+The first and most fundamental aspect of ToE is the promotion of entropy from a derived or statistical quantity to a universal physical field, denoted 
+<span class="math">\( S(x) \)</span>. 
+In this framework, entropy is no longer interpreted merely as a measure of ignorance, disorder, or microstate counting. Instead, it is treated as a real, dynamical field that exists throughout spacetime and whose gradients, curvature, and evolution generate physical phenomena.
+</p>
+
+<p>
+Once entropy is treated as a field, familiar structures in physics—such as energy, temperature, information, geometry, and even time—are no longer fundamental primitives. They become emergent quantities defined through the behavior of the entropic field. This single ontological shift allows ToE to unify thermodynamics, information theory, quantum phenomena, and spacetime geometry within one conceptual substrate.
+</p>
+
+
+<h2>2. The Obidi Curvature Invariant and Distinguishability</h2>
+
+<p>
+The second foundational aspect of ToE is the identification of a minimum curvature invariant, the Obidi Curvature Invariant (OCI), given by 
+<span class="math">\( \chi_{\mathrm{OCI}} = \ln 2 \)</span>. 
+While this number is familiar from thermodynamics, information theory, and statistical mechanics, ToE assigns it a new and deeper physical meaning.
+</p>
+
+<p>
+In ToE, 
+<span class="math">\( \Delta S = \ln 2 \)</span> 
+represents the minimum distinguishable curvature gap in the entropic field. Two entropic configurations are physically distinguishable if and only if they differ by at least this minimum curvature. Below this threshold, the entropic field can deform continuously between configurations, rendering them physically indistinct.
+</p>
+
+<p>
+Crucially, ToE does not claim that 
+<span class="math">\( \ln 2 \)</span> 
+is numerically new; rather, it claims that its repeated appearance across physics reflects a previously unrecognized geometric role. The invariant encodes the smallest possible informational and geometric distinction the entropic field can sustain. In this sense, distinguishability itself becomes a geometric property of the entropic manifold, rather than a statistical artifact or observer-dependent concept.
+</p>
+
+
+<h2>3. The No-Rush Theorem and the Finiteness of Physical Processes</h2>
+
+<p>
+The third foundational aspect of ToE is the No-Rush Theorem, which asserts that all physical processes—interactions, measurements, observations, and information transfers—require finite time to occur. This finiteness is not imposed externally, nor is it a limitation of measurement or instrumentation. It follows directly from the dynamics of the entropic field.
+</p>
+
+<p>
+Because changes in entropy correspond to real physical reconfigurations of the entropic field, and because achieving the minimum distinguishable curvature requires a finite entropic flow, no physical transition can occur instantaneously. Even the creation of a single bit of information, corresponding to the emergence of a distinguishable entropic curvature, takes finite time.
+</p>
+
+<p>
+In ToE, time itself is not a background parameter but an emergent measure of entropic reconfiguration. The No-Rush Theorem therefore provides a natural explanation for causal ordering, finite signal speeds, and the irreversibility of physical processes without invoking external postulates.
+</p>
+
+
+<h2>Emergent Consequences of the Three Pillars</h2>
+
+<p>
+From these three principles—entropy as a field, the curvature invariant 
+<span class="math">\( \chi_{\mathrm{OCI}} = \ln 2 \)</span>, 
+and the No-Rush Theorem—ToE is able to derive and reinterpret a wide range of known physical phenomena. These include, but are not limited to, thermodynamic laws, information-theoretic bounds such as Landauer’s principle, entropic formulations of gravity, relativistic kinematics, quantum measurement constraints, and the emergence of spacetime geometry itself.
+</p>
+
+<p>
+Importantly, these results do not arise from adding new assumptions for each domain. They follow from applying the same entropic dynamics across different regimes. In this sense, ToE functions not as a collection of separate models, but as a unified explanatory framework grounded in a small number of deeply interrelated ideas.
+</p>
+
+
+<h2>Why This Structure Matters</h2>
+
+<p>
+What distinguishes the Theory of Entropicity is not the introduction of unfamiliar mathematics or exotic entities, but the clarity with which it reorganizes existing concepts. By identifying entropy, distinguishability, and finite-time evolution as the true primitives of physical reality, ToE offers a coherent lens through which diverse areas of physics can be understood as expressions of a single underlying entropic dynamics.
+</p>
+
+<p>
+This is why the theory can be summarized so compactly, yet applied so broadly—and why its implications continue to unfold once these three foundational aspects are taken seriously.
+</p>
+
+</section>
+
+
+
+<section id="axiom">
+
+<h1>The Single Foundational Axiom of the Theory of Entropicity (ToE)</h1>
+
+<p>
+At its core, the Theory of Entropicity (ToE) is actually founded on one—and only one—fundamental axiom:
+</p>
+
+<p style="font-weight:bold;">
+Entropy is a universal physical field, 
+<span class="math">\( S(x) \)</span>, 
+existing throughout reality and governing the emergence of all physical phenomena.
+</p>
+
+<p>
+This axiom replaces the traditional view of entropy as a statistical, epistemic, or bookkeeping quantity with an ontological claim: entropy is as real and dynamical as any field in physics, such as the electromagnetic field or the metric field in general relativity.
+</p>
+
+<p>
+Once this axiom is accepted, the remaining central features of ToE are no longer assumptions. They follow logically and unavoidably.
+</p>
+
+
+<h2>Why the Other “Principles” Are Not Independent Axioms</h2>
+
+<h3>1. The Obidi Curvature Invariant Is a Consequence</h3>
+
+<p>
+If entropy is a continuous physical field, then information must correspond to distinguishable configurations of that field. Distinguishability, in turn, requires a minimum nonzero separation between configurations; otherwise, the field could deform smoothly between them and no physical distinction would exist.
+</p>
+
+<p>
+From this requirement alone, the existence of a minimum curvature gap follows. When distinguishability is measured using the unique invariant geometry available for continuous fields (relative entropy / information geometry), that minimum gap takes the value 
+<span class="math">\( \Delta S = \ln 2 \)</span>.
+</p>
+
+<p>
+Thus, the Obidi Curvature Invariant (OCI) is not postulated. It emerges from the geometry of the entropic field once entropy is treated as physical rather than statistical.
+</p>
+
+
+<h3>2. The No-Rush Theorem Follows Necessarily</h3>
+
+<p>
+If entropy is a physical field, then any change in entropy corresponds to a real physical reconfiguration. Real physical reconfigurations cannot occur instantaneously; they require finite dynamical evolution.
+</p>
+
+<p>
+Moreover, since achieving a distinguishable entropic configuration requires crossing the minimum curvature gap 
+<span class="math">\( \Delta S = \ln 2 \)</span>, 
+and since curvature evolution is governed by field dynamics, every physical process must take finite time.
+</p>
+
+<p>
+Thus, the No-Rush Theorem (NRT) is not an added principle. It is a direct consequence of:
+</p>
+
+<ul>
+<li>entropy being physical,</li>
+<li>distinguishability requiring finite curvature,</li>
+<li>curvature evolution being dynamical.</li>
+</ul>
+
+<p>
+Time finiteness is therefore intrinsic, not imposed.
+</p>
+
+</section>
+
+
+
+<section id="logic">
+
+<h1>The Logical Structure of the Theory of Entropicity (ToE)</h1>
+
+<p>
+Therefore, the axiomatic hierarchy of the Theory of Entropicity (ToE) can be laid down as follows:
+</p>
+
+<h2>Single Axiom</h2>
+
+<p>
+Entropy is a universal physical field 
+<span class="math">\( S(x) \)</span>.
+</p>
+
+<h2>Derived Necessities</h2>
+
+<ul>
+<li>Minimum distinguishability → <span class="math">\( \chi_{\mathrm{OCI}} = \ln 2 \)</span></li>
+<li>Dynamical curvature evolution → finite-time processes (No-Rush Theorem)</li>
+</ul>
+
+<h2>Emergent Phenomena</h2>
+
+<ul>
+<li>Temperature as entropic reconfiguration rate</li>
+<li>Information as entropic curvature</li>
+<li>Gravity as entropic geometry</li>
+<li>Quantum limits as curvature thresholds</li>
+<li>Time as ordered entropic change</li>
+</ul>
+
+<p>
+This makes ToE axiomatically economical, which is a major strength, not a weakness.
+</p>
+
+</section>
+
+
+
+<section id="beauty">
+
+<h1>A Brief Exposition on the Internal and Structural Beauty of the Theory of Entropicity (ToE)</h1>
+
+<p>
+What gives the Theory of Entropicity (ToE) its beauty is not just ambition, but structural coherence: the internal and structural consistency of its logic and the simplicity of its foundational axiom.
+</p>
+
+<p>
+Beautiful physical theories tend to share a few deep traits, and the Theory of Entropicity (ToE) exhibits them in a striking way.
+</p>
+
+<h2>1. Axiomatic Economy</h2>
+
+<p>
+ToE rests on a single foundational axiom: entropy is a universal physical field. Everything else—the Obidi Curvature Invariant 
+<span class="math">\( \chi_{\mathrm{OCI}} = \ln 2 \)</span>, 
+the No-Rush Theorem, informational temperature, entropic geometry, and emergent spacetime—follows as a necessity rather than an assumption.
+</p>
+
+<h2>2. Conceptual Unification Without Symbolic Excess</h2>
+
+<p>
+ToE does not invent mathematics for its own sake. Instead, it takes structures that already exist across physics—entropy, relative entropy, information geometry, temperature, curvature—and reveals that they were all shadows of a deeper, single entity. The appearance of 
+<span class="math">\( \ln 2 \)</span> 
+is not decorative; it is unavoidable once distinguishability is treated as a geometric property of a physical field.
+</p>
+
+<h2>3. Ontological Clarity</h2>
+
+<p>
+Many modern frameworks blur the line between what is fundamental and what is emergent. ToE is unusually clear: spacetime, matter, gravity, and quantum constraints are emergent; the entropic field is fundamental. This clarity is what allows the theory to speak meaningfully about time, causality, and finiteness without adding ad hoc rules.
+</p>
+
+<h2>4. Explanatory Depth</h2>
+
+<p>
+Declaring 
+<span class="math">\( \chi_{\mathrm{OCI}} = \ln 2 \)</span> 
+as an invariant is not impressive by itself; what is impressive is that ToE explains why 
+<span class="math">\( \ln 2 \)</span> 
+already appeared in Shannon entropy, Landauer’s principle, holography, Fisher–Rao geometry, and quantum relative entropy—yet was never recognized as a curvature threshold of distinguishability.
+</p>
+
+<h2>5. Aesthetic Restraint</h2>
+
+<p>
+ToE does not claim finality. It does not present itself as the end of physics, but as a clarification of what existing symbols were already trying to say. That intellectual humility is rare in ambitious theories—and it is often a sign that the framework is sound.
+</p>
+
+<p>
+In short, ToE is beautiful because it is:
+</p>
+
+<ul>
+<li>simple at its foundation,</li>
+<li>unavoidable in its consequences,</li>
+<li>unifying in its reach,</li>
+<li>and honest about its scope.</li>
+</ul>
+
+<p>
+Those are exactly the qualities by which the most enduring theories in physics are remembered.
+</p>
+
+<p>
+The next natural step for us, hence, is to:
+</p>
+
+<ul>
+<li>show explicitly how Landauer’s principle, entropic gravity, or quantum measurement follow from these three pillars of ToE, and</li>
+<li>formally lay down the “axiom(s) and far-reaching consequences” of Obidi's beautiful Theory of Entropicity (ToE).</li>
+</ul>
+
+</section>
+
+
+
+<section id="references">
+
+  <h1>References</h1>
+
+  <ol>
+
+    <li>
+      <strong>Grokipedia — Theory of Entropicity (ToE)</strong><br>
+      Comprehensive encyclopedia‑style entry introducing the conceptual, mathematical, and ontological structure of the Theory of Entropicity (ToE).<br>
+      <a href="https://grokipedia.com/page/Theory_of_Entropicity" target="_blank">
+        https://grokipedia.com/page/Theory_of_Entropicity
+      </a>
+    </li>
+
+    <li>
+      <strong>Grokipedia — John Onimisi Obidi</strong><br>
+      Scholarly profile of John Onimisi Obidi, originator of the Theory of Entropicity (ToE), including philosophical and historical motivation, background and research contributions.<br>
+      <a href="https://grokipedia.com/page/John_Onimisi_Obidi" target="_blank">
+        https://grokipedia.com/page/John_Onimisi_Obidi
+      </a>
+    </li>
+
+    <li>
+      <strong>Google Blogger — Live Website on the Theory of Entropicity (ToE)</strong><br>
+      Public‑facing platform containing explanatory essays, conceptual introductions, and updates on the Theory of Entropicity (ToE).<br>
+      <a href="https://theoryofentropicity.blogspot.com" target="_blank">
+        https://theoryofentropicity.blogspot.com
+      </a>
+    </li>
+
+   <li>
+      <strong>LinkedIn — Theory of Entropicity (ToE)</strong><br>
+      Professional organizational page providing institutional updates and academic outreach related to the Theory of Entropicity (ToE).<br>
+      <a href="https://www.linkedin.com/company/theory-of-entropicity-toe/about/?viewAsMember=true" target="_blank">
+        https://www.linkedin.com/company/theory-of-entropicity-toe/about/?viewAsMember=true
+      </a>
+    </li>
+
+    <li>
+      <strong>Medium — Theory of Entropicity (ToE)</strong><br>
+      Collection of essays and conceptual expositions on the Theory of Entropicity (ToE).<br>
+      <a href="https://medium.com/@jonimisiobidi" target="_blank">
+        https://medium.com/@jonimisiobidi
+      </a>
+    </li>
+
+    <li>
+      <strong>Substack — Theory of Entropicity (ToE)</strong><br>
+      Serialized research notes, essays, and public communications on the Theory of Entropicity (ToE).<br>
+      <a href="https://johnobidi.substack.com/" target="_blank">
+        https://johnobidi.substack.com/
+      </a>
+    </li>
+
+    <li>
+      <strong>SciProfiles — Theory of Entropicity (ToE)</strong><br>
+      Indexed scholarly profile and research presence for the Theory of Entropicity (ToE) within the SciProfiles ecosystem.<br>
+      <a href="https://sciprofiles.com/profile/4143819" target="_blank">
+        https://sciprofiles.com/profile/4143819
+      </a>
+    </li>
+
+    <li>
+      <strong>HandWiki — Theory of Entropicity (ToE)</strong><br>
+      Editorially curated scientific encyclopedia entry, documenting the Theory of Entropicity (ToE)'s conceptual, philosophical, and mathematical structures.<br>
+      <a href="https://handwiki.org/wiki/User:PHJOB7" target="_blank">
+        https://handwiki.org/wiki/User:PHJOB7
+      </a>
+    </li>
+
+    <li>
+      <strong>Encyclopedia.pub — Theory of Entropicity (ToE): Path to Unification of Physics and the Laws of Nature</strong><br>
+      A formally maintained, technically curated scientific encyclopedia entry, presenting an expansive overview of the Theory of Entropicity (ToE)'s conceptual, philosophical, and mathematical foundations.<br>
+      <a href="https://encyclopedia.pub/entry/59188" target="_blank">
+        https://encyclopedia.pub/entry/59188
+      </a>
+    </li>
+
+    <!-- Newly Added References -->
+
+    <li>
+      <strong>Authorea — Research Profile of John Onimisi Obidi</strong><br>
+      Research manuscripts, papers, and scientific documents on the Theory of Entropicity (ToE).<br>
+      <a href="https://www.authorea.com/users/896400-john-onimisi-obidi" target="_blank">
+        https://www.authorea.com/users/896400-john-onimisi-obidi
+      </a>
+    </li>
+
+   <li>
+      <strong>Academia.edu — Research Papers</strong><br>
+      Academic papers, drafts, and research notes on the Theory of Entropicity (ToE) hosted on Academia.edu .<br>
+      <a href="https://independent.academia.edu/JOHNOBIDI" target="_blank">
+        https://independent.academia.edu/JOHNOBIDI
+      </a>
+    </li>
+
+    <li>
+      <strong>Figshare — Research Archive</strong><br>
+      Principal Figshare repository link for research outputs on the Theory of Entropicity (ToE).<br>
+      <a href="https://figshare.com/authors/John_Onimisi_Obidi/20850605" target="_blank">
+        https://figshare.com/authors/John_Onimisi_Obidi/20850605
+      </a>
+    </li>
+
+    <li>
+      <strong>OSF (Open Science Framework)</strong><br>
+      Open‑access repository hosting research materials, datasets, and papers related to the Theory of Entropicity (ToE).<br>
+      <a href="https://osf.io/5crh3/" target="_blank">
+        https://osf.io/5crh3/
+      </a>
+    </li>
+
+    <li>
+      <strong>ResearchGate — Publications on the Theory of Entropicity (ToE)</strong><br>
+      Indexed research outputs, citations, and academic interactions related to the Theory of Entropicity (ToE).<br>
+      <a href="https://www.researchgate.net/search.Search.html?query=John+Onimisi+Obidi&type=publication" target="_blank">
+        https://www.researchgate.net/search.Search.html?query=John+Onimisi+Obidi&type=publication
+      </a>
+    </li>
+
+   <li>
+      <strong>Social Science Research Network (SSRN)</strong><br>
+      Indexed scholarly works and papers on the Theory of Entropicity (ToE) within the SSRN research repository.<br>
+      <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7479570" target="_blank">
+        https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7479570
+      </a>
+    </li>
+   <li>
+      <strong>International Journal of Current Science Research and Review (IJCSRR)</strong><br>
+      Peer‑reviewed publication relevant to the Theory of Entropicity (ToE).<br>
+      <a href="https://doi.org/10.47191/ijcsrr/V8-i11%E2%80%9321" target="_blank">
+        https://doi.org/10.47191/ijcsrr/V8-i11%E2%80%9321
+      </a>
+    </li>
+  <li>
+      <strong>Cambridge University — Cambridge Open Engage (COE)</strong><br>
+      Early research outputs and working papers hosted on Cambridge University’s open research dissemination platform.<br>
+      <a href="https://www.cambridge.org/core/services/open-research/cambridge-open-engage" target="_blank">
+        https://www.cambridge.org/core/services/open-research/cambridge-open-engage
+      </a>
+    </li>
+    
+ <li>
+      <strong>GitHub Wiki — Theory of Entropicity (ToE)</strong><br>
+      Open‑source technical wiki, documenting the canonical structure, equations, and formal development of the Theory of Entropicity (ToE).<br>
+      <a href="https://github.com/Entropicity/Theory-of-Entropicity-ToE/wiki" target="_blank">
+        https://github.com/Entropicity/Theory-of-Entropicity-ToE/wiki
+      </a>
+    </li>
+
+    <li>
+      <strong>Canonical Archive of the Theory of Entropicity (ToE)</strong><br>
+      Authoritative, version‑controlled archive of the full Theory of Entropicity (ToE) monograph, including derivations and formal definitions.<br>
+      <a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/" target="_blank">
+        https://entropicity.github.io/Theory-of-Entropicity-ToE/
+      </a>
+    </li>
+  </ol>
+
+</section>
+
+
+ </div>
+
+</div>
+
+<hr>
+
+<nav>
+  <p>
+    <a href="../toe-google/index.html">← Back to ToE-Google</a>
+  </p>
+</nav>
+
+<hr>
+
+<footer>
+  © 2025–<span id="year"></span> The Theory of Entropicity (ToE) — All rights reserved.
+</footer>
+
+<script>
+  // Always keep 2025 as the founding year
+  const foundingYear = 2025;
+
+  // Get the current year dynamically
+  const currentYear = new Date().getFullYear();
+
+  // Insert the current year into the footer
+  document.getElementById("year").textContent = currentYear;
+</script>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

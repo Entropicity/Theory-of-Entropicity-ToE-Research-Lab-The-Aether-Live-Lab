@@ -1,0 +1,239 @@
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+  color: #222;
+  background: #fafafa;
+}
+
+header h1 {
+  margin-bottom: 0.2rem;
+}
+
+nav {
+  margin-bottom: 2rem;
+}
+
+nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #0044aa;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  margin-top: 2rem;
+}
+
+pre {
+  background: #f5f5f5;
+  padding: 0.75rem 1rem;
+  overflow-x: auto;
+  font-size: 0.95rem;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.85rem;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
+
+
+.toe-flex-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.toe-left-column {
+    flex: 0 0 250px;
+}
+
+.toe-right-column {
+    flex: 1;
+}
+
+
+.toe-flex-container {
+    padding-left: 20px;
+}
+
+
+/* Push content away from the left edge */
+body {
+    padding-left: 40px !important;
+}
+
+/* Flexbox layout */
+.toe-flex-container {
+    display: flex !important;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+/* Left column fixed width */
+.toe-left-column {
+    flex: 0 0 260px;
+}
+
+/* Right column expands */
+.toe-right-column {
+    flex: 1;
+}
+
+main {
+    max-width: 800px;      /* keeps text readable */
+    margin: 0 auto;        /* centers the content */
+    padding: 20px;         /* adds space on left and right */
+    line-height: 1.6;      /* improves readability */
+}
+
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: relative;
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+
+  .content {
+    margin-left: 0 !important;
+  }
+}
+
+/* Prevent sidebar from overlapping main content */
+.layout {
+  display: flex;
+  align-items: flex-start;
+}
+
+.sidebar {
+  flex: 0 0 250px;      /* fixed sidebar width */
+  max-width: 250px;
+  position: sticky;     /* or fixed, depending on your design */
+  top: 0;
+  z-index: 10;          /* stays above background, not above content */
+}
+
+.main-content {
+  flex: 1;
+  min-width: 300px;     /* prevents compression on Cloudflare */
+  margin-left: 20px;    /* spacing from sidebar */
+}
+
+/* Responsive fallback for narrower viewports */
+@media (max-width: 1200px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: relative;
+    max-width: none;
+  }
+
+  .main-content {
+    margin-left: 0;
+    min-width: auto;
+  }
+}
+
+
+/* Wrap the entire page in a flex container */
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+/* Sidebar column */
+#sidebar, .sidebar, .toc-container {
+  flex: 0 0 260px;   /* reserve space */
+  max-width: 260px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+/* Main content column */
+#content, .content, .main, .main-content {
+  flex: 1;
+  margin-left: 20px;   /* spacing from sidebar */
+  min-width: 300px;    /* prevents Cloudflare compression */
+}
+
+/* Responsive fallback */
+@media (max-width: 1200px) {
+  body {
+    flex-direction: column;
+  }
+
+  #sidebar, .sidebar, .toc-container {
+    width: 100%;
+    max-width: none;
+    position: relative;
+  }
+
+  #content, .content, .main, .main-content {
+    margin-left: 0;
+    min-width: auto;
+  }
+}
+
+
+/* Layout container */
+#layout {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+/* Sidebar */
+#sidebar-nav {
+  flex: 0 0 270px;
+  width: 270px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow-y: auto;
+  background: #f5f5f5;
+  border-right: 1px solid #ddd;
+  padding: 22px;
+}
+
+/* Main content */
+#content {
+  flex: 1;
+  margin-left: 300px;   /* pushes content to the right */
+  padding: 20px;
+}
+
+/* Responsive mode */
+@media (max-width: 900px) {
+  #layout {
+    flex-direction: column;
+  }
+
+  #sidebar-nav {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-right: none;
+  }
+
+  #content {
+    margin-left: 0;
+  }
+}

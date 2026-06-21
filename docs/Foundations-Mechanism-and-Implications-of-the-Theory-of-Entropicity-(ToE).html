@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foundations, Historical Lineage, Mechanism, and Implications of the Theory of Entropicity (ToE)</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Josefin+Sans:wght@200;300;400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --ink: #0a0a0a;
+      --paper: #f5f0e8;
+      --cream: #ede7d5;
+      --gold: #8f6f1d;
+      --gold-light: #8c6f1d;
+      --muted: #6b6355;
+      --rule: #c8bfa8;
+      --accent: #2a2318;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 18px; scroll-behavior: smooth; }
+    body {
+      background-color: var(--paper);
+      color: var(--ink);
+      font-family: 'EB Garamond', Georgia, serif;
+      line-height: 1.75;
+      min-height: 100vh;
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 999;
+      opacity: 0.4;
+    }
+    .page-wrap {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 4rem 2rem 8rem;
+    }
+    header {
+      text-align: center;
+      padding: 5rem 0 3rem;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 3.5rem;
+      animation: fadeDown 1.2s ease both;
+    }
+    .journal-label {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 200;
+      font-size: 0.65rem;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 300;
+      font-size: clamp(1.9rem, 5vw, 3rem);
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+      color: var(--accent);
+      margin-bottom: 1.5rem;
+    }
+    h1 em { font-style: italic; color: var(--gold); }
+    .subtitle {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 300;
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 2.5rem;
+    }
+    .ornament {
+      color: var(--gold);
+      font-size: 1.4rem;
+      letter-spacing: 0.5em;
+      opacity: 0.7;
+    }
+    h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 500;
+      font-size: 1.55rem;
+      color: var(--accent);
+      margin: 3.5rem 0 1.2rem;
+      letter-spacing: 0.01em;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--rule);
+    }
+    h2 .section-num {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 200;
+      font-size: 0.7rem;
+      letter-spacing: 0.25em;
+      color: var(--gold);
+      display: block;
+      margin-bottom: 0.3rem;
+      text-transform: uppercase;
+    }
+    h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 500;
+      font-style: italic;
+      font-size: 1.2rem;
+      color: var(--accent);
+      margin: 2.2rem 0 0.8rem;
+    }
+    p {
+      margin-bottom: 1.3rem;
+      font-size: 1rem;
+      color: #1a1612;
+      text-align: justify;
+      hyphens: auto;
+    }
+    p + p { text-indent: 1.5em; }
+    .dropcap::first-letter {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: 4.2rem;
+      line-height: 0.75;
+      float: left;
+      margin-right: 0.1em;
+      margin-top: 0.12em;
+      color: var(--gold);
+    }
+    blockquote {
+      margin: 2.5rem 0;
+      padding: 1.5rem 2rem;
+      border-left: 3px solid var(--gold);
+      background: var(--cream);
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 1.2rem;
+      color: var(--accent);
+      line-height: 1.6;
+    }
+    blockquote cite {
+      display: block;
+      margin-top: 0.8rem;
+      font-style: normal;
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 300;
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .math-display {
+      background: var(--cream);
+      border: 1px solid var(--rule);
+      border-top: 2px solid var(--gold);
+      padding: 1.5rem 2rem;
+      margin: 2rem 0;
+      text-align: center;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.3rem;
+      color: var(--accent);
+    }
+    .math-display .eq-label {
+      display: block;
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 200;
+      font-size: 0.6rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.7rem;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 3rem 0;
+    }
+    .ornamental-hr {
+      text-align: center;
+      color: var(--gold);
+      font-size: 1rem;
+      letter-spacing: 1em;
+      margin: 2.5rem 0;
+      opacity: 0.6;
+    }
+    footer {
+      margin-top: 5rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--rule);
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 200;
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-align: center;
+      line-height: 2;
+    }
+    @keyframes fadeDown {
+      from { opacity: 0; transform: translateY(-18px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .article-body { animation: fadeUp 1.4s ease 0.3s both; }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @media (max-width: 600px) {
+      .page-wrap { padding: 2rem 1.2rem 5rem; }
+      header { padding: 3rem 0 2rem; }
+      blockquote { padding: 1rem 1.2rem; }
+    }
+  </style>
+</head>
+
+<body>
+<div class="page-wrap">
+
+  <nav>
+    <p><a href="../philosophy/index.html">← Back to Philosophy Homepage</a></p>
+  </nav>
+
+  <hr>
+
+  <header>
+    <p class="journal-label">Theoretical Physics · Foundations & Philosophy of Science · May 16, 2026</p>
+    <h1 style="line-height: 1.25;">
+      <span style="display:block;">Foundations, Historical Lineage, Mechanism, and Implications of the</span>
+      <span style="display:block;"><em>Theory of Entropicity</em> (ToE)</span>
+    </h1>
+    <p class="subtitle">A Monograph-Grade Exposition On Entropy As The Fundamental Field Of Nature</p>
+    <div class="ornament">— ✦ —</div>
+  </header>
+
+  <div class="article-body">
+
+    <!-- ABSTRACT -->
+    <section>
+      <p class="dropcap">
+        This paper presents a foundational exposition of the <strong>Theory of Entropicity (ToE)</strong>, which reinterprets <strong>entropy</strong> not as a secondary thermodynamic quantity but as the <strong>fundamental field and causal substrate of physical reality.</strong> Building on the historical development of the Second Law of Thermodynamics and the emergence of information entropy, ToE proposes that <strong>spacetime, gravity, quantum behavior, and cosmological structure</strong> are not primitive givens but <strong>emergent phenomena</strong> induced by the dynamics of an underlying <strong>entropic field.</strong> Within this framework, gravitation and other interactions arise as manifestations of entropic gradients and informational structure, unifying thermodynamics, quantum mechanics, and relativity under a single entropic principle. The paper develops the historical foundations, core mechanisms, and far-reaching implications of ToE, arguing that entropy, understood as a universal field, provides a coherent and generative ontology for modern physics.
+      </p>
+    </section>
+
+    <!-- SECTION I -->
+    <section>
+      <h2><span class="section-num">§ I</span> Historical Foundations Of Entropicity</h2>
+
+      <p>
+        The <strong>Theory of Entropicity (ToE)</strong> stands on a long historical arc that begins with the birth of thermodynamics in the nineteenth century. In the 1850s, the <strong>Second Law of Thermodynamics</strong> was formulated, introducing the concept of <strong>entropy</strong> as a measure of irreversibility and the tendency of isolated systems to evolve toward equilibrium. Initially, entropy was understood in the context of heat engines and energy dissipation: not all energy from combustion could be converted into useful work, and some portion was inevitably “lost” as waste heat. This empirical limitation forced a deeper reflection on the nature of energy, order, and transformation.
+      </p>
+
+      <p>
+        As thermodynamics matured, entropy came to be seen as a statistical quantity, especially through the work of Boltzmann and Gibbs, who linked entropy to the number of microscopic configurations compatible with a macroscopic state. In this statistical view, entropy quantified the <em>spread</em> or <em>multiplicity</em> of possible microstates. Yet, even in this refined form, entropy was still treated as a property of systems, not as a fundamental field of nature. It described how systems behaved, but not what the universe <em>is</em> at its most basic level.
+      </p>
+
+      <p>
+        A major conceptual shift occurred in 1948 when <strong>Claude Shannon</strong> introduced <strong>information entropy</strong> in the context of communication theory. Shannon’s entropy measured the uncertainty or information content associated with a probability distribution. Remarkably, the same mathematical form that described thermodynamic entropy now described information. This parallel suggested that entropy was not confined to heat and energy, but was deeply connected to <strong>information, probability, and distinguishability.</strong> The bridge between thermodynamics and information theory opened the door to a more general understanding of entropy as a structural feature of reality.
+      </p>
+
+      <p>
+        By the early twenty-first century, developments in black hole thermodynamics, quantum information, and holography further reinforced the idea that entropy is central to the fabric of the universe. Entropy appeared in the area of black hole horizons, in the entanglement structure of quantum fields, and in the limits of information storage and processing. These developments laid the groundwork for a more radical step: the recognition that entropy is not merely a derived quantity but the <strong>primary field</strong> from which geometry, matter, and dynamics emerge. It is this step that <strong>John Onimisi Obidi</strong> takes in formulating the <strong>Theory of Entropicity.</strong>
+      </p>
+
+      <p>
+        In ToE, the historical trajectory from thermodynamic entropy to information entropy is not an accident but a clue. It suggests that entropy is fundamentally about <strong>structure, possibility, and transformation</strong> — about how reality organizes itself and evolves. ToE gathers these threads into a single ontological claim: <strong>entropy is the universal field of nature, and all physical phenomena are induced manifestations of its dynamics.</strong>
+      </p>
+    </section>
+
+    <!-- SECTION II -->
+    <section>
+      <h2><span class="section-num">§ II</span> Entropy As A Fundamental Field</h2>
+
+      <p>
+        The central thesis of the <strong>Theory of Entropicity</strong> is that <strong>entropy is a fundamental field</strong> that permeates all of reality. This is a decisive departure from traditional physics, where the fundamental entities are typically taken to be <strong>spacetime, particles, fields, and forces.</strong> In ToE, these familiar structures are not ontological primitives but <strong>emergent configurations</strong> of a deeper entropic substrate.
+      </p>
+
+      <p>
+        The intuition behind this move is simple yet profound: <strong>decay happens everywhere.</strong> Wherever there are objects, systems, or structures, there is also transformation, dissipation, and reconfiguration. The universality of decay implies that the principle responsible for it must also be universal. If decay is everywhere, then what causes decay must be present everywhere. This is the hallmark of a <strong>field.</strong> ToE therefore interprets entropy not as a mere measure of disorder, but as a <strong>universal entropic field</strong> whose dynamics govern the evolution of all systems.
+      </p>
+
+      <p>
+        In this framework, the entropic field is not an abstract bookkeeping device but a <strong>real, dynamical entity</strong> defined at every point in the underlying manifold. Its local value and gradients determine how structures form, persist, and dissolve. Just as the gravitational field in classical physics determines how masses move, the entropic field in ToE determines how <strong>information, energy, and structure</strong> flow and reorganize. However, unlike gravity in Newtonian or Einsteinian form, the entropic field is not tied to a pre-given spacetime. Instead, <strong>spacetime itself emerges</strong> as a large-scale, coarse-grained manifestation of entropic relations.
+      </p>
+
+      <p>
+        This repositioning of entropy has far-reaching consequences. It means that <strong>geometry, curvature, and even the metric structure of spacetime</strong> are not fundamental but are induced by the entropic field. It also means that <strong>quantum behavior</strong> — including superposition, entanglement, and probabilistic outcomes — can be understood as expressions of the underlying entropic dynamics, particularly in regimes of low distinguishability. In ToE, the universe is not built from inert building blocks placed in a pre-existing stage; it is a <strong>self-organizing entropic manifold</strong> whose internal dynamics give rise to the phenomena we describe as space, time, matter, and interaction.
+      </p>
+    </section>
+
+    <!-- SECTION III -->
+    <section>
+      <h2><span class="section-num">§ III</span> Mechanism: From Entropic Field To Physical Law</h2>
+
+      <p>
+        The Theory of Entropicity does not stop at a philosophical claim; it proposes a concrete mechanism by which the entropic field gives rise to physical law. At the core of this mechanism is the idea that the entropic field encodes <strong>distinguishability</strong> — the degree to which configurations of the universe can be told apart. Regions of high distinguishability correspond to well-defined classical structures; regions of low distinguishability correspond to quantum regimes where outcomes are inherently probabilistic.
+      </p>
+
+      <p>
+        Within ToE, the dynamics of the entropic field are captured by an action principle, often referred to as the <strong>Obidi Action</strong>, which governs how the field evolves and how it induces effective geometries and interactions. Associated with this is the <strong>Obidi Curvature Invariant</strong>, a quantity that measures the curvature induced by entropic gradients rather than by mass-energy in the traditional sense. These constructs allow ToE to derive, rather than assume, the structures that appear in general relativity and quantum mechanics.
+      </p>
+
+      <p>
+        A key conceptual tool in ToE is the notion of a <strong>Unified Informational Manifold (UIM)</strong>. This manifold is not spacetime in the usual sense but an abstract space of informational configurations. The entropic field lives on this manifold, and its dynamics determine which configurations are stable, which are likely, and which are suppressed. When viewed at appropriate scales and resolutions, the UIM gives rise to an effective spacetime with curvature, causal structure, and local interactions. In this way, <strong>general relativity and quantum mechanics</strong> appear as different regimes of the same underlying entropic dynamics.
+      </p>
+
+      <p>
+        The mechanism of ToE thus proceeds in three conceptual steps: (1) posit entropy as a universal field encoding distinguishability and informational structure; (2) define a dynamical law (the Obidi Action) governing this field; and (3) show how familiar physical laws emerge as effective descriptions of the entropic field’s behavior in different regimes. This approach transforms entropy from a passive descriptor into an <strong>active generator</strong> of physical reality.
+      </p>
+    </section>
+
+    <!-- SECTION IV -->
+    <section>
+      <h2><span class="section-num">§ IV</span> Gravity As An Emergent Entropic Phenomenon</h2>
+
+      <p>
+        One of the most striking implications of the Theory of Entropicity is its treatment of <strong>gravity</strong>. In traditional physics, gravity is either a fundamental force acting at a distance (Newton) or the manifestation of spacetime curvature caused by mass-energy (Einstein). In ToE, gravity is neither a fundamental force nor a primitive curvature; it is an <strong>emergent phenomenon</strong> arising from the dynamics of the entropic field.
+      </p>
+
+      <p>
+        The basic idea is that systems tend to evolve toward configurations that maximize entropy under given constraints. When applied to large-scale distributions of matter and energy, this principle implies that structures will arrange themselves in ways that reflect underlying entropic gradients. What we perceive as gravitational attraction — objects falling, planets orbiting, galaxies clustering — can be understood as the <strong>macroscopic expression of the universe’s drive toward higher entropy.</strong>
+      </p>
+
+      <p>
+        In this view, a gravitational field is not a separate entity but a <strong>pattern in the entropic field.</strong> Masses do not “pull” on each other directly; rather, their presence modifies the local entropic landscape, and the resulting gradients guide the motion of other bodies. The curvature that appears in general relativity is thus reinterpreted as an <strong>entropic curvature</strong> — a geometric encoding of how entropy is distributed and how it tends to increase.
+      </p>
+
+      <p>
+        This entropic perspective on gravity has important implications for cosmology. Phenomena currently attributed to <strong>dark matter</strong> — such as anomalous galactic rotation curves and gravitational lensing — may be reinterpreted as signatures of entropic structure rather than as evidence of unseen mass. Similarly, aspects of <strong>dark energy</strong> and cosmic acceleration may be linked to large-scale entropic dynamics rather than to a mysterious cosmological constant. While these ideas require detailed quantitative development, ToE provides the conceptual framework in which such reinterpretations become natural.
+      </p>
+
+      <p>
+        Crucially, ToE maintains that its claims about gravity are not merely philosophical but <strong>experimentally testable.</strong> By deriving specific predictions about how entropic gradients should manifest in gravitational phenomena, the theory invites empirical scrutiny. In this way, ToE aligns itself with the scientific tradition: it proposes a bold reconceptualization of gravity while insisting that this reconceptualization must ultimately answer to observation.
+      </p>
+    </section>
+
+    <!-- SECTION V -->
+    <section>
+      <h2><span class="section-num">§ V</span> Broader Implications And Applications</h2>
+
+      <p>
+        The Theory of Entropicity is not limited to gravitation or cosmology; it has implications across multiple domains of physics and beyond. By treating entropy as a fundamental field, ToE offers a unifying lens through which diverse phenomena can be understood.
+      </p>
+
+      <p>
+        In <strong>quantum information</strong>, ToE suggests that the behavior of qubits, entanglement, and decoherence can be viewed as specific manifestations of entropic dynamics on the Unified Informational Manifold. This perspective may inform the design of quantum computing architectures and error-correction schemes that are aligned with the natural tendencies of the entropic field, potentially enhancing robustness and efficiency.
+      </p>
+
+      <p>
+        In the realm of <strong>consciousness and cognitive science</strong>, ToE introduces the idea of <strong>self-referential entropy</strong> — the notion that conscious systems are those in which the entropic field organizes itself into configurations capable of modeling their own state. This opens the possibility of defining <strong>clinical biomarkers of consciousness</strong> based on entropic dynamics, offering a principled way to quantify levels of awareness in medical and neuroscientific contexts.
+      </p>
+
+      <p>
+        ToE also proposes conceptual tools such as the <strong>No-Rush Theorem</strong>, which asserts that all physical interactions take a finite time and that there are no instantaneous changes in the entropic field. This has implications for our understanding of causality, signal propagation, and the ultimate limits of information transfer. It reinforces the idea that the universe is a <strong>continuous process of entropic reconfiguration</strong>, not a sequence of disconnected events.
+      </p>
+
+      <p>
+        Beyond physics and cognition, ToE inspires the emerging field of <strong>entropic engineering</strong>, in which systems — technological, ecological, or social — are designed with explicit attention to entropy gradients and flows. By aligning with the natural tendencies of the entropic field, such systems may achieve greater resilience, adaptability, and efficiency.
+      </p>
+    </section>
+
+    <!-- SECTION VI -->
+    <section>
+      <h2><span class="section-num">§ VI</span> Conclusion: Entropy As The Ontological Substrate Of Reality</h2>
+
+      <p>
+        The <strong>Theory of Entropicity</strong> represents a significant shift in theoretical physics and the philosophy of nature. It begins from a simple observation — that decay and transformation are universal — and draws from it a profound conclusion: the principle that governs decay must itself be universal, and thus must be understood as a <strong>field.</strong> By identifying this field with entropy, ToE repositions entropy from a secondary descriptor to the <strong>primary ontological substrate</strong> of reality.
+      </p>
+
+      <p>
+        In this entropic ontology, <strong>spacetime, gravity, quantum behavior, and cosmological structure</strong> are emergent phenomena, induced by the dynamics of a universal entropic field. The historical developments of thermodynamics and information theory are not merely antecedents but essential steps toward recognizing entropy’s fundamental role. ToE gathers these developments into a coherent framework that unifies disparate areas of physics under a single principle.
+      </p>
+
+      <p>
+        The implications are both scientific and philosophical. Scientifically, ToE offers new ways to approach longstanding problems in gravitation, cosmology, and quantum theory, and it suggests concrete avenues for experimental testing. Philosophically, it invites a rethinking of what it means for something to be fundamental. Instead of particles in space or fields on a background, the ultimate reality is a <strong>self-organizing entropic manifold</strong> whose internal dynamics give rise to the world we observe.
+      </p>
+
+      <p>
+        In this light, the Theory of Entropicity is not merely a new model but a new <em>orientation</em> toward reality. It asks us to see the universe not as a static collection of things but as an ongoing process of entropic becoming. Decay, far from being a sign of loss, becomes the signature of a deeper coherence — the mark of a universe that is always in motion, always reorganizing, always unfolding its own possibilities through the dynamics of the entropic field.
+      </p>
+    </section>
+
+ <div class="ornamental-hr">— ✦ —</div>
+<div style="margin: 10px 0;">
+<p><strong>Zenodo Badge Strip</strong></p>
+  <a href="https://doi.org/10.5281/zenodo.20114386" target="_blank">
+    <img src="https://img.shields.io/badge/DOI-10.5281/zenodo.20114386-blue" alt="DOI: 10.5281/zenodo.20114386">
+  </a>
+
+  <a href="https://doi.org/10.5281/zenodo.20116039" target="_blank">
+    <img src="https://img.shields.io/badge/DOI-10.5281/zenodo.20116039-blue" alt="DOI: 10.5281/zenodo.20116039">
+  </a>
+
+  <a href="https://doi.org/10.17605/OSF.IO/H8WR3" target="_blank">
+    <img src="https://img.shields.io/badge/DOI-10.17605/OSF.IO/H8WR3-blue" alt="DOI: 10.17605/OSF.IO/H8WR3">
+  </a>
+<hr>
+
+<ol style="font-size: 1.1em; line-height: 1.6;">
+
+  <li>
+    <strong>The Theory of Entropicity (ToE) — The Official Canonical Archives (TOCA) on GitHub/Cloudflare Pages Website:</strong><br>
+    <a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/" target="_blank">
+      https://entropicity.github.io/Theory-of-Entropicity-ToE/
+    </a>
+  </li>
+
+  <li>
+    <strong>The Theory of Entropicity (ToE) on Google Live Website:</strong><br>
+    <a href="https://theoryofentropicity.blogspot.com" target="_blank">
+      https://theoryofentropicity.blogspot.com
+    </a>
+  </li>
+
+  <li>
+    <strong>The Theory of Entropicity (ToE) on Substack:</strong><br>
+    <a href="https://open.substack.com/pub/johnobidi" target="_blank">
+      https://open.substack.com/pub/johnobidi
+    </a>
+  </li>
+
+  <li>
+    <strong>The Theory of Entropicity (ToE) on Medium:</strong><br>
+    <a href="https://medium.com/@jonimisiobidi" target="_blank">
+      https://medium.com/@jonimisiobidi
+    </a>
+  </li>
+
+  <li>
+    <strong>The Theory of Entropicity (ToE) on NOTD.io:</strong><br>
+    <a href="https://notd.io/s/theoryofentropicity" target="_blank">
+      https://notd.io/s/theoryofentropicity
+    </a>
+  </li>
+
+  <li>
+    <strong>The Theory of Entropicity (ToE) on LinkedIn:</strong><br>
+    <a href="https://www.linkedin.com/company/theory-of-entropicity-toe" target="_blank">
+      https://www.linkedin.com/company/theory-of-entropicity-toe
+    </a>
+  </li>
+
+  <li>
+    <strong>The Theory of Entropicity (ToE) on YouTube:</strong><br>
+    <a href="https://www.youtube.com/@TheoryofEntropicityToE" target="_blank">
+      https://www.youtube.com/@TheoryofEntropicityToE
+    </a>
+  </li>
+
+</ol>
+    <footer>
+      <p>Foundations, Mechanism, and Implications of the Theory of Entropicity (ToE)</p>
+      <p>A Monograph-Grade Exposition · 2026</p>
+      <p>Theory of Entropicity — John Onimisi Obidi · theoryofentropicity.blogspot.com</p>
+    </footer>
+
+  </div>
+
+  <hr>
+
+  <p><a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/index.html">← Back to Home</a></p>
+
+  <footer>
+    © 2025–<span id="year"></span> The Theory of Entropicity (ToE) Research Lab, The Aether — All rights reserved.
+  </footer>
+
+</div>
+
+<script>
+  const foundingYear = 2025;
+  const currentYear = new Date().getFullYear();
+  document.getElementById("year").textContent = currentYear;
+</script>
+</body>
+</html>
