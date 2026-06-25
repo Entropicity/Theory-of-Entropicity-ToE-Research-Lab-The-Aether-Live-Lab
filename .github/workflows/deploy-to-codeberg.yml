@@ -1,37 +1,35 @@
-name: Deploy to Codeberg Pages
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Build site (if needed)
-        run: |
-          # If your site is already HTML, leave this empty.
-          # If you generate HTML, run your build commands here.
-          echo "No build step needed."
-
-      - name: Prepare deployment folder
-        run: |
-          mkdir deploy
-          cp -r * deploy || true
-
-      - name: Push to Codeberg pages branch
-        run: |
-          cd deploy
-          git init
-          git config user.name "${{ secrets.CODEBERG_USERNAME }}"
-          git config user.email "actions@github.com"
-          git add .
-          git commit -m "Deploy from GitHub Actions"
-          git branch -M pages
-          git remote add origin https://oauth2:${{ secrets.CODEBERG_TOKEN }}@codeberg.org/${{ secrets.CODEBERG_USERNAME }}/${{ secrets.CODEBERG_REPO }}.git
-          git push -f origin pages
+# name: Deploy to Codeberg Pages
+#
+# on:
+#   push:
+#     branches:
+#       - main
+#
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
+#
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v4
+#
+#       - name: Build site (if needed)
+#         run: |
+#           echo "No build step needed."
+#
+#       - name: Prepare deployment folder
+#         run: |
+#           mkdir deploy
+#           cp -r * deploy || true
+#
+#       - name: Push to Codeberg pages branch
+#         run: |
+#           cd deploy
+#           git init
+#           git config user.name "${{ secrets.CODEBERG_USERNAME }}"
+#           git config user.email "actions@github.com"
+#           git add .
+#           git commit -m "Deploy from GitHub Actions"
+#           git branch -M pages
+#           git remote add origin https://oauth2:${{ secrets.CODEBERG_TOKEN }}@codeberg.org/${{ secrets.CODEBERG_USERNAME }}/${{ secrets.CODEBERG_REPO }}.git
+#           git push -f origin pages
