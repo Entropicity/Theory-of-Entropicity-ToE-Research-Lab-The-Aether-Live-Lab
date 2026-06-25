@@ -42,6 +42,9 @@ Are you currently reading through a specific paper in the Cambridge Open Engage 
 [11] [https://www.researchgate.net](https://www.researchgate.net/publication/403997209_The_Theory_of_Entropicity_ToE_Sheds_Light_on_String_Theory_Quantum_Field_Theory_and_the_Casimir_Effect_Strings_and_Branes_are_Vibrations_of_Information_Geometry_in_the_Entropic_Field_of_ToE)
 
 [12] [https://client.prod.orp.cambridge.org](https://client.prod.orp.cambridge.org/engage/coe/search-dashboard?keywords=%20Entropic%20Field%20Theory)
+
 [13] [https://www.hepi.ac.uk](https://www.hepi.ac.uk/2022/08/03/answering-the-challenges-to-open-access-the-5-cs/)
+
 [14] [https://www.lib.berkeley.edu](https://www.lib.berkeley.edu/about/news/covid-oa)
+
 [15] [https://papers.ssrn.com](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6599558)
