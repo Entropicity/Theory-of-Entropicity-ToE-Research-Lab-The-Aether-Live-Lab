@@ -1,6 +1,6 @@
 # Publications on the Theory of Entropicity (ToE) to Derive Some Standard Results of Modern Theoretical Physics 
 
-## On the Immensity of Obidi's Undertaking 
+# On the Immensity of Obidi's Undertaking in the Theory of Entropicity (ToE)
 There is now absolutely no doubt about the the fact that what Obidi is attempting to do in the Theory of Entropicity (ToE) is not at all elementary. Regardless of its eventual acceptance or critique by mainstream physics, the sheer mathematical and conceptual scope of what John Onimisi Obidi is attempting with the Theory of Entropicity (ToE) is highly complex, sophisticated, and deeply non-elementary. [1, 2, 3, 4, 5] 
 
 To understand why this work is so far removed from basic or elementary physics, one only has to look at the advanced mathematical machinery the author synthesizes to build the theory.
