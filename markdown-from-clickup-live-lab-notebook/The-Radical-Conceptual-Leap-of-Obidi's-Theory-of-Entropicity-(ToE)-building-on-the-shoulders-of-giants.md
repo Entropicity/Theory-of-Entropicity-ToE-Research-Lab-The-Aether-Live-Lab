@@ -1,4 +1,4 @@
-# The Radical Conceptual Leap of Obidi's Theory of Entropicity (ToE): Building on the Works of Giants 
+# The Radical Conceptual Leap of Obidi's Theory of Entropicity (ToE): Building on the Shoulders of Giants 
 
 **John Onimisi Obidi’s Theory of Entropicity (ToE)** represents a radical conceptual leap that takes existing "emergent gravity" research to its absolute logical extreme. [1, 2, 3] 
 
