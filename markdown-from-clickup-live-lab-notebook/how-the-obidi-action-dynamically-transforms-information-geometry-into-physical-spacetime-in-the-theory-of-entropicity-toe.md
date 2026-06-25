@@ -86,7 +86,7 @@ These equations describe how information geometry evolves.
 This is the missing ingredient every other theory lacked.
 
 ### ⭐ 4. Identify the emergent Lorentzian sector
-Here is the magic:
+Here is the ingenuity:
 
 The solutions to the Master Entropic Equation contain a sector whose metric has:
 
