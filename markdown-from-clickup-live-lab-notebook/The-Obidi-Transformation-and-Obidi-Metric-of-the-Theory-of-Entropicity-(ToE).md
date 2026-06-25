@@ -28,10 +28,17 @@ To see how information geometry translates into physical principles and understa
 Would you like to explore how the Obidi Action derives specific cosmic limits, or should we break down the mathematics behind the Curvature Transfer Theorem?
 
 [1] [https://medium.com](https://medium.com/@jonimisiobidi/the-obidi-transformation-and-the-obidi-metric-in-modern-theoretical-physics-from-innovations-of-the-b9219bd51149)
+
 [2] [https://encyclopedia.pub](https://encyclopedia.pub/entry/58738)
+
 [3] [https://encyclopedia.pub](https://encyclopedia.pub/entry/59188)
+
 [4] [https://papers.ssrn.com](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5632250)
+
 [5] [https://medium.com](https://medium.com/@jonimisiobidi/how-obidi-transformed-shannon-entropy-to-spacetime-in-his-theory-of-entropicity-toe-2fdd04370c6c)
+
 [6] [https://medium.com](https://medium.com/@jonimisiobidi/john-onimisi-obidis-audacious-contributions-to-the-foundations-of-modern-theoretical-physics-df9c286f2aeb)
+
 [7] [https://medium.com](https://medium.com/@jonimisiobidi/how-obidi-transformed-shannon-entropy-to-spacetime-in-his-theory-of-entropicity-toe-2fdd04370c6c)
+
 [8] [https://encyclopedia.pub](https://encyclopedia.pub/entry/58652)
