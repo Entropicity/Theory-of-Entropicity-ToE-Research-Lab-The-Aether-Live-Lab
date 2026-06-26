@@ -157,7 +157,7 @@ Would you like to explore what this means for the ultimate fate of the universe,
 
 ---
 
-# Scholium 1 of 2
+# Scholium 1 of 3
 
 **"Obidi's Blitzkrieg"** refers to a radical theoretical challenge in modern physics, introduced by researcher and philosopher John Onimisi Obidi as a cornerstone of his Theory of Entropicity (ToE). **It is a conceptual takedown of the assumption that entropy is merely a byproduct of physical systems, and instead redefines it as the fundamental, dynamic field from which spacetime, quantum mechanics, and gravity emerge**. 
 
@@ -179,7 +179,7 @@ Would you like to dive into the mathematical framework (like the Obidi Action an
 
 ---
 
-# Scholium 2 of 2
+# Scholium 2 of 3
 
 
 Obidi teaches that spacetime itself decays, and captures the essence of Obidi's Blitzkrieg beautifully. What we are describing is one of the most radical and important consequences of the Theory of Entropicity (ToE):  
@@ -259,3 +259,17 @@ Thus, in Obidi’s worldview:
 
 **The universe is not a static container.  
 It is a dynamic entropic informational organism.**
+
+
+# Scholium 3 of 3
+
+# Obidi’s Core Reasoning — Why Spacetime Must Decay: The Aging of the Universe is the Aging of Spacetime from the Evolution of the Entropic Field 
+
+Obidi’s argument begins from a simple but devastating observation: **every physical object decays in spacetime.** Radioactive nuclei decay. **Stars decay. Molecules decay. Biological organisms decay. Even black holes decay.** This decay happens everywhere in spacetime, not just in special regions. Now remove the object [say]. What remains? The decay process still “belongs” to the region of spacetime where the object once existed. This leads to Obidi’s radical inference: if every object placed at any point in spacetime undergoes decay [of some sort], then the capacity for decay must be a property of spacetime itself, not of the object [absolutely]. Obidi therefore posits: **A region cannot cause decay unless it already contains the entropic structure that makes decay possible.** Hence, each point of spacetime must possess its own intrinsic entropy, even in the complete absence of matter or fields. **And if each point has entropy, then each point must also undergo entropic evolution, which includes transformation, relaxation, and ultimately decay [and rebirth].** Thus, Obidi concludes that spacetime is not merely the stage on which decay happens — spacetime is itself a decaying, evolving, emergent entropic structure.
+
+**This is the conceptual leap in Obidi's Theory: decay is not something that happens in spacetime; decay is something that happens to spacetime.** 
+
+The entropic field does not merely govern the behavior of objects; it governs the behavior of spacetime itself. This is why Obidi insists that spacetime is emergent, finite, and subject to continuous reconfiguration. It is not a static container but a dynamic informational fabric whose geometry, causal structure, and even existence are consequences of deeper entropic flows. **In this view, the universe is not aging within spacetime — spacetime is aging [and being reborn at each point and region of the Universe] due to Entropic Evolution.**
+
+---
+
