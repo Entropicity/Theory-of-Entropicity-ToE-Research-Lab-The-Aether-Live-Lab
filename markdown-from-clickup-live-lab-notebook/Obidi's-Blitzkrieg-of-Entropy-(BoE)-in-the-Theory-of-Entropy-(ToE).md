@@ -451,6 +451,8 @@ Literally.
 
 This is Obidi's philosophical punchline:
 
+If spacetime is emergent, then spacetime must have the same vulnerabilities, dynamics, and failure modes as any emergent structure.
+
 > Decay is not an event inside spacetime.  
 > Decay is a transformation of spacetime.
 
