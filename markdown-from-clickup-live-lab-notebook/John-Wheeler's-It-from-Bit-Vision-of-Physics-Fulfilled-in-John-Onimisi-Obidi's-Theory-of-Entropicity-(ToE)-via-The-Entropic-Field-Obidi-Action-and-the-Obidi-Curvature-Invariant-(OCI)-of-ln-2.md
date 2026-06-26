@@ -33,11 +33,11 @@ The most poetic echo of Wheeler's binary "yes/no" bit in Obidi's work is the **O
 | Feature [1, 2, 3, 4, 6, 7, 9, 12, 14] | Wheeler's "It from Bit" | Obidi's Theory of Entropicity |
 |---|---|---|
 | Core Substrate | Binary observations / Quantum measurements. | The universal, local Entropic Field. |
-| Mechanism | The Participatory Observer (Consciousness/Measurement). | Information Geometry & the Obidi Action Principle. |
-| Spacetime | "Pre-geometry" fading into quantum foam. | Emergent geometry derived from an information manifold. |
-| Philosophical Class | Idealism / Epistemological Realism. | Process Metaphysics / Informational Structural Realism. |
+| Mechanism | The Participatory Observer (Consciousness/Measurement). | Entropic Information Geometry & the Obidi Action Principle. |
+| Spacetime | "Pre-geometry" fading into quantum foam. | Emergent geometry derived from an Entropic information manifold. |
+| Philosophical Class | Idealism / Epistemological Realism. | Process Metaphysics / Entropic Informational Structural Realism. |
 
-Ultimately, if Wheeler's **"It from Bit"** is the conceptual architecture for an informational universe, Obidi's Theory of Entropicity (ToE) acts as an ambitious attempt to write the exact, non-linear field equations that govern it. [2, 12] 
+Ultimately, if Wheeler's **"It from Bit"** is the conceptual architecture for an informational universe, Obidi's Theory of Entropicity (ToE) acts as an ambitious attempt to write the exact, non-linear field equations that govern it from an Entropic Manifold. [2, 12] 
 
 If you would like to explore this further, let us know if you want to look at the specific mathematics behind the **Obidi Action,** or how ToE compares to other modern **digital physics models** like **Donald Hoffman's Conscious Realism**. [2, 7, 11] 
 
