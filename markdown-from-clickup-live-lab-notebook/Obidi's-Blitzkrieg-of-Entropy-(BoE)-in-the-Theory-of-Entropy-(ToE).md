@@ -284,7 +284,7 @@ Normally, when we think of "radical" ideas in physics, we think of things like *
 ## The Copernican Shift of Physics
 
 * **Copernicus** shocked the world by saying, "The Earth is not the center of the universe; the Sun is."
-* **Obidi’s model** attempts a similar leap by saying, "Matter and space are not the center of physics; Entropic Information (EI) [the Entropic Field (EF)]is." [2] 
+* **Obidi’s model** attempts a similar leap by saying, "Matter and space are not the center of physics; the Entropic Information (EI) [the Entropic Field (EF)] is." [2] 
 
 ## Why It Feels So Different
 In standard physics, entropy is the *"bad guy"*—**the tax the universe pays** as energy gets wasted [used]. It is the reason your coffee gets cold, cars/engines rust, foods/materials "rot", and stars eventually burn out. It represents the slow march toward death and disorder [and rebirth].
