@@ -44,6 +44,66 @@ Does looking at it as a "digital screen" make the concept feel a bit more ground
 
 ---
 
+# The New World View Obidi Teaches Us About Spacetime and the Universe 
+
+This is the exact core of John Onimisi Obidi's argument. [1, 2] 
+In the Theory of Entropicity (ToE), spacetime is not a permanent, unshakeable background stage. Instead, it is an emergent, macro-level illusion created entirely by the underlying entropic field. Because spacetime is born from this field, it is completely subject to its rules, meaning it is constantly driven by transformation and redistributive flow. [1, 2, 3, 4] 
+
+The framework breaks down this transformation of spacetime through several key concepts:
+
+## 1. Spacetime as a "Result," Not a Foundation
+In classical physics, you need space and time to exist first before you can calculate things like movement or decay. Obidi flips this upside down. Space and time are treated as large-scale, "coarse-grained" descriptions of relational structures. The Entropic Field is the only thing that is truly fundamental; space and time are just the physical symptoms of how that field organizes information. [1, 2, 5, 6, 7] 
+
+## 2. Gravitational Curvature is Just Entropic Relaxation
+Einstein taught us that gravity is the bending of spacetime geometry. Obidi's framework takes this a step further by stating that gravity is a macroscopic expression of entropic curvature. When we see space "warp" or objects pull together, we aren't seeing a fundamental geometric grid bending. We are seeing the entropic field relaxing and flowing toward equilibrium. Gravity is essentially the universe smoothing out informational tension. [8, 9, 10, 11, 12] 
+
+## 3. The Reality of Transformation and the "No-Rush Theorem"
+Because spacetime is dictated by the entropic field, it cannot change instantly. The theory introduces the No-Rush Theorem, which dictates that all physical interactions require a finite, non-zero time interval (the Entropic Time Limit) to redistribute constraints and synchronize states. Therefore, things like time dilation, length contraction, and mass increase are reinterpreted not as quirks of empty space, but as the physical resistance and finite reconfiguration rates of the entropic field itself. [3, 4, 13, 14, 15] 
+
+## Summary: The Ultimate Decay and Rebirth of Spacetime and the Universe 
+If the entropic field is what weaves the fabric of spacetime, then the evolution, expansion, and ultimate fate of our universe are not just happening in spacetime—they are happening to spacetime. Spacetime transforms [and also decays and re-orders (and reborn)] because the underlying data flow is continuously shifting, optimizing, and reorganizing. [2, 14, 16, 17, 18] 
+Would you like to look at how this entropic field replaces Einstein's field equations, or should we explore what this means for the arrow of time and how the universe ends? [14, 19] 
+
+[1] [https://medium.com](https://medium.com/@jonimisiobidi/obidis-metaphysics-and-philosophy-from-his-theory-of-entropicity-toe-in-modern-theoretical-60dbb747cae7)
+
+[2] [https://medium.com](https://medium.com/@jonimisiobidi/entropy-as-the-foundational-field-of-physics-and-the-emergence-of-spacetime-in-the-theory-of-51ee12189a43)
+
+[3] [https://medium.com](https://medium.com/@jonimisiobidi/what-is-the-theory-of-entropicity-toe-ab87621f4f88)
+
+[4] [https://www.authorea.com](https://www.authorea.com/doi/10.22541/au.176168478.84013205)
+
+[5] [https://medium.com](https://medium.com/@jonimisiobidi/how-obidis-theory-of-entropicity-toe-inverts-a-150-year-old-assumption-in-theoretical-physics-e1da08d611d4)
+
+[6] [https://medium.com](https://medium.com/@jonimisiobidi/entropy-before-everything-the-radical-rebirth-of-physics-introducing-a-new-foundation-of-reality-46323836fad8)
+
+[7] [https://www.reddit.com](https://www.reddit.com/r/AskPhysics/comments/1h0dfvw/what_is_space_time_actually_made_from/)
+
+[8] [https://www.cambridge.org](https://www.cambridge.org/engage/coe/article-details/691437a4a10c9f5ca1db32f3)
+
+[9] [https://entropicity.github.io](https://entropicity.github.io/Theory-of-Entropicity-ToE/equations/universality-of-obidi-curvature-invariant-in-toe.html)
+
+[10] [https://www.dummies.com](https://www.dummies.com/article/academics-the-arts/science/physics/einsteins-general-relativity-theory-gravity-as-geometry-193329/)
+
+[11] [https://www.facebook.com](https://www.facebook.com/academicavengers/videos/what-is-spacetime-really-explained-in-30-secondsin-just-30-seconds-we-break-down/1088030983228074/)
+
+[12] [https://www.instagram.com](https://www.instagram.com/reel/DM7_9XiR9Ju/)
+
+[13] [https://encyclopedia.pub](https://encyclopedia.pub/entry/58652)
+
+[14] [https://papers.ssrn.com](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5996415)
+
+[15] [https://encyclopedia.pub](https://encyclopedia.pub/entry/58738)
+
+[16] [https://medium.com](https://medium.com/@jonimisiobidi/an-introduction-to-the-theory-of-entropicity-toe-its-conceptual-foundations-and-far-reaching-3f6a9a8be616)
+
+[17] [https://medium.com](https://medium.com/@shaheim/the-unfolding-of-time-and-space-0e30f55fe76b)
+
+[18] [https://papers.ssrn.com](https://papers.ssrn.com/sol3/Delivery.cfm/6805522.pdf?abstractid=6805522&mirid=1)
+
+[19] [https://www.researchgate.net](https://www.researchgate.net/publication/405620453_From_Information_Geometry_to_Information_Gravity_Information_Geometry_as_the_Origin_of_Einstein%27s_Gravity_Correspondence_of_the_Obidi_Action_and_the_Einstein-Hilbert_Action_in_the_Theory_of_Entropicit)
+
+---
+
 # Scholium 
 
 **"Obidi's Blitzkrieg"** refers to a radical theoretical challenge in modern physics, introduced by researcher and philosopher John Onimisi Obidi as a cornerstone of his Theory of Entropicity (ToE). **It is a conceptual takedown of the assumption that entropy is merely a byproduct of physical systems, and instead redefines it as the fundamental, dynamic field from which spacetime, quantum mechanics, and gravity emerge**. 
