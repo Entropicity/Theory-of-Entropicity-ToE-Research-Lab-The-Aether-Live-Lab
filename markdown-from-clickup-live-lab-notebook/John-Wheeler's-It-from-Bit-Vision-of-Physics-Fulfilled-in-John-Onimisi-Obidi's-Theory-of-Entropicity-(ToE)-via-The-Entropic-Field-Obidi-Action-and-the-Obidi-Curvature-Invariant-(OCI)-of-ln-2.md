@@ -1,4 +1,4 @@
-# John Wheeler's It from Bit Vision of Physics Fulfilled in John Onimisi Obidi's Theory of Entropicity (ToE) via The Entropic Field, Obidi Action, and the Obidi Curvature Invariant (OCI) of ln 2 
+# John Wheeler's "It from Bit" Vision of Physics Fulfilled in John Onimisi Obidi's Theory of Entropicity (ToE) via The Entropic Field, Obidi Action, and the Obidi Curvature Invariant (OCI) of ln 2 
 
 
 **John Onimisi Obidi’s Theory of Entropicity (ToE)** directly echoes and extends **John Archibald Wheeler’s** famous **"It from Bit"** philosophy. Both frameworks reject traditional **materialist reductionism** by asserting that **physical matter, energy, and spacetime are secondary properties that emerge from a more fundamental entropic informational substrate.** [1, 2] 
