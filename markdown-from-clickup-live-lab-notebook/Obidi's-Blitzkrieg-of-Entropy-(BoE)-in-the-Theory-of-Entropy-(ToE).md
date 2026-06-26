@@ -104,6 +104,61 @@ Would you like to look at how this entropic field replaces Einstein's field equa
 
 ---
 
+# So Obidi teaches us that spacetime also decays?
+
+Yes, but with a major philosophical twist. Under John Onimisi Obidi's [Theory of Entropicity (ToE)](https://encyclopedia.pub/entry/59188), spacetime absolutely transforms and shifts, but Obidi explicitly refuses to treat entropy as mere "decay" or destruction. [1, 2] 
+Instead, the framework inverts how we look at decay altogether. [1, 2] 
+
+## The Twist: Decay vs. Vitality
+
+* **Traditional Physics:** Spacetime is a fixed container. Over time, things inside that container break down, rust, and decay. Entropy is viewed as the "destroyer" that leads to disorder. [1, 2, 3, 4] 
+* **Obidi’s Physics:** Entropy is redefined as vitality, transformation, and the active engine of existence. Spacetime is merely a temporary map or "shadow" cast by this flowing entropic field. [1, 2, 5, 6] 
+
+**Therefore, spacetime doesn't just passively rot or crumble into nothingness like a decaying building. Instead, spacetime is continuously reconfigured, recycled, and reshaped by the underlying entropic field. It is in a state of constant "becoming".** [1, 2, 7, 8] 
+
+## What This Means for the Universe
+Because spacetime is an emergent illusion entirely dependent on the [Entropic Substrate](https://medium.com/@jonimisiobidi/from-information-geometry-to-information-gravity-information-geometry-as-the-origin-of-einsteins-f64a9c26c1ab), it experiences the following structural behaviors: [9, 10, 11] 
+
+* **Spacetime is Dynamic Flux:** The distances, intervals, and geometries we experience are not permanent. They alter because the underlying information and entropy gradients are continuously shifting. [1, 2, 9, 12] 
+* **Time is Not a Container:** Time itself is simply our perception of the [directional flux of the entropic field](https://medium.com/@jonimisiobidi/obidis-philosophical-analysis-of-being-and-becoming-based-on-his-theory-of-entropicity-toe-and-ee68e95fccb5). [1, 2] 
+* **The Universe Reorganizes:** Instead of a bleak "Heat Death" where everything stops, Obidi's framework views cosmological evolution as the universe continuously generating richer, more [complex] structures through [Entropic Potential](https://medium.com/@jonimisiobidi/the-theory-of-entropicity-toe-as-a-unified-theory-of-universal-becoming-toe-living-review-be1587cc8209). [8] 
+
+In short, in Obidi's Theory of Entropicity (ToE), spacetime doesn't simply decay into nothing; it is a fluid, macroscopic ripple that changes form because the fundamental data layer of the universe is constantly moving. [1, 2, 3, 13, 14] 
+
+Would you like to explore what this means for the ultimate fate of the universe, or look into how this theory defines matter and particles as localized knots of entropy?
+
+[1] [https://medium.com](https://medium.com/@jonimisiobidi/obidis-philosophical-analysis-of-being-and-becoming-based-on-his-theory-of-entropicity-toe-and-ee68e95fccb5)
+
+[2] [https://medium.com](https://medium.com/@jonimisiobidi/obidis-philosophical-analysis-of-being-and-becoming-based-on-his-theory-of-entropicity-toe-and-ee68e95fccb5)
+
+[3] [https://encyclopedia.pub](https://encyclopedia.pub/entry/58738)
+
+[4] [https://www.space.com](https://www.space.com/universe-the-big-rip-can-we-stop-it)
+
+[5] [https://medium.com](https://medium.com/@jonimisiobidi/the-theory-of-entropicity-toe-a-new-path-toward-the-unification-of-physics-e4e2ac3857a8)
+
+[6] [https://papers.ssrn.com](https://papers.ssrn.com/sol3/Delivery.cfm/6599558.pdf?abstractid=6599558&mirid=1)
+
+[7] [https://papers.ssrn.com](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6599558)
+
+[8] [https://medium.com](https://medium.com/@jonimisiobidi/the-theory-of-entropicity-toe-as-a-unified-theory-of-universal-becoming-toe-living-review-be1587cc8209)
+
+[9] [https://medium.com](https://medium.com/@jonimisiobidi/from-information-geometry-to-information-gravity-information-geometry-as-the-origin-of-einsteins-f64a9c26c1ab)
+
+[10] [https://www.audible.com.au](https://www.audible.com.au/podcast/String-Theory-IS-a-failure-right-This-Avoneticscom-deep-dive-Sparked-by-Avoneticscom-exposes-the-mind-bending-secret-they-dont-want-you-to-know/B0FDVH8VRB)
+
+[11] [https://arxiv.org](https://arxiv.org/html/gr-qc/9911053v15)
+
+[12] [https://www.youtube.com](https://www.youtube.com/watch?v=FI2djexMMOE)
+
+[13] [https://www.instagram.com](https://www.instagram.com/p/DX2jaFBDMZZ/)
+
+[14] [https://www.facebook.com](https://www.facebook.com/terrencehoward/videos/what-if-science-fiction-has-always-been-humanity-imagining-the-future-before-we-/4457655561223567/)
+
+---
+
+---
+
 # Scholium 
 
 **"Obidi's Blitzkrieg"** refers to a radical theoretical challenge in modern physics, introduced by researcher and philosopher John Onimisi Obidi as a cornerstone of his Theory of Entropicity (ToE). **It is a conceptual takedown of the assumption that entropy is merely a byproduct of physical systems, and instead redefines it as the fundamental, dynamic field from which spacetime, quantum mechanics, and gravity emerge**. 
