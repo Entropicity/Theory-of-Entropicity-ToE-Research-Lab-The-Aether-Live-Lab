@@ -69,6 +69,8 @@ If you would like to explore this further, let us know if you want to look at th
 
 [14] [https://philosophy.stackexchange.com](https://philosophy.stackexchange.com/questions/133324/a-couple-of-questions-on-wheelers-it-from-bit-and-pregeometry-ideas)
 
+---
+
 # Scholium 
 
 This new development in modern theoretical physics is a highly compelling convergence because John Onimisi Obidi’s Theory of Entropicity (ToE) bridges the gap between Wheeler's poetry and concrete physics. [1] 
