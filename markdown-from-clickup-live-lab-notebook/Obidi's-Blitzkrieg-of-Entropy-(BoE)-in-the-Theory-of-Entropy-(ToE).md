@@ -159,7 +159,7 @@ Would you like to explore what this means for the ultimate fate of the universe,
 
 ---
 
-# Scholium 1 of 3
+# Scholium 1 of 4
 
 **"Obidi's Blitzkrieg"** refers to a radical theoretical challenge in modern physics, introduced by researcher and philosopher John Onimisi Obidi as a cornerstone of his Theory of Entropicity (ToE). **It is a conceptual takedown of the assumption that entropy is merely a byproduct of physical systems, and instead redefines it as the fundamental, dynamic field from which spacetime, quantum mechanics, and gravity emerge**. 
 
@@ -181,7 +181,7 @@ Would you like to dive into the mathematical framework (like the Obidi Action an
 
 ---
 
-# Scholium 2 of 3
+# Scholium 2 of 4
 
 
 Obidi teaches that spacetime itself decays, and captures the essence of Obidi's Blitzkrieg beautifully. What we are describing is one of the most radical and important consequences of the Theory of Entropicity (ToE):  
@@ -263,7 +263,7 @@ Thus, in Obidi’s worldview:
 It is a dynamic entropic informational organism.**
 
 
-# Scholium 3 of 3
+# Scholium 3 of 4
 
 # Obidi’s Core Reasoning — Why Spacetime Must Decay: The Aging of the Universe is the Aging of Spacetime from the Evolution of the Entropic Field 
 
@@ -343,4 +343,140 @@ Would you like to look at the **Obidi Action Principle (OAP)**—the core equati
 [11] [https://medium.com](https://medium.com/@jonimisiobidi/the-theory-of-entropicity-toe-as-a-unified-theory-of-universal-becoming-toe-living-review-be1587cc8209)
 
 [12] [https://encyclopedia.pub](https://encyclopedia.pub/entry/59188)
+
+---
+
+# Scholium 4 of 4
+
+# How *every point in spacetime* can decay — without invoking anything mystical or contradictory. 
+
+This is one of the deepest insights of the Theory of Entropicity, and once you see the logic, it becomes unavoidable.
+
+---
+
+# **Why Every Point in Spacetime Must Decay (Obidi’s Logic)**
+
+The key is this:  
+**Decay is not a property of objects. Decay is a property of the spacetime regions in which objects sit.**
+
+---
+
+## **1. Empirical fact: Every object decays in spacetime**
+Radioactive atoms decay.  
+Stars decay.  
+Molecules decay.  
+Black holes decay.  
+Biological organisms decay.
+
+And crucially:
+
+**They decay everywhere in spacetime.**
+
+Obidi declares that **there is no “decay‑free zone” in the universe.**
+
+This is the starting point.
+
+---
+
+## **2. Remove the object — does the decay‑capacity disappear?**
+
+This is Obidi’s devastating question:
+
+> If you remove the object, does the *capacity* for decay vanish from that region?
+
+If the answer were “yes,” then decay would be a property of the object.
+
+But that cannot be true, because:
+
+- the *same* object decays differently in different gravitational potentials  
+- decay rates change with spacetime curvature  
+- decay rates change with velocity (time dilation)  
+- decay rates change with entropic conditions  
+
+Therefore:
+
+**Decay depends on the spacetime region [and dynamics], not [just] the object.**
+
+This is the turning point.
+
+---
+
+## **3. Therefore: every point in spacetime must contain entropy**
+
+If decay is possible *at every point*, then:
+
+- every point must contain the structure that *enables* decay  
+- that structure cannot be matter (because matter can be removed)  
+- it must be something intrinsic to [the nature and dymanics of] spacetime itself  
+
+Thus:
+
+**each point of spacetime must possess intrinsic entropy.**
+
+This is the Obidi leap.
+
+---
+
+## **4. If each point has entropy, each point must evolve — and therefore decay**
+
+Entropy is not static.  
+Entropy evolves.  
+Entropy relaxes.  
+Entropy flows.  
+Entropy reorganizes.
+Entropy redistributes.
+
+If spacetime points *contain* entropy, then spacetime points must:
+
+- evolve  
+- relax  
+- transform  
+- decay  
+- reorganize 
+- redistribute 
+
+This is not optional — it is mathematically required.
+
+Thus:
+
+**spacetime itself must decay.**
+
+Not metaphorically.  
+Not poetically.  
+Literally.
+
+---
+
+## **5. Decay is not something that happens *in* spacetime — it happens *to* spacetime**
+
+This is Obidi's philosophical punchline:
+
+> Decay is not an event inside spacetime.  
+> Decay is a transformation of spacetime.
+
+Objects decay because spacetime decays.  
+Processes decay because spacetime decays.  
+The universe ages because spacetime ages.
+
+This is why Obidi says:
+
+**The universe is not aging *within* spacetime — spacetime is aging.**
+
+---
+
+# **So how can every point decay?**
+
+Because every point:
+
+- contains entropy  
+- evolves entropically  
+- relaxes entropically  
+- reorganizes/redistributes entropically  
+- participates in the entropic flow that generates spacetime  
+
+Decay is simply the **local expression** of the global entropic evolution of the entropic field.
+
+Every point decays/ages/redistributes because every point is **made of entropy**.
+
+---
 
