@@ -1,7 +1,7 @@
 # The Physics and Philosophy of David Sigtermans and John Onimisi Obidi: Two Minds, Different Goals and Ambitions
 
 **David Sigtermans** is not building a new physics in the way **John Onimisi Obidi** is.  
-But the long kaleidoscope is far more interesting — because it reveals the exact difference between a phenomenological entropic model (Sigtermans) and a foundational entropic ontology (Obidi).
+But the long kaleidoscope is far more interesting — because it reveals the exact difference between a **phenomenological entropic model (Sigtermans)** and a **foundational entropic ontology (Obidi)**.
 
 ---
 
