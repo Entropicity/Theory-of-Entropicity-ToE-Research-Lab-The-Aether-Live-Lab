@@ -6,8 +6,7 @@ Obidi's Theory of Entropicity (ToE) is a theoretical physics and philosophical f
 ## The Core Pillars of the Framework
 The theory operates on a complete "ontological inversion" of standard 20th-century physics: [4] 
 * Entropy as a Fundamental Field (S(x)): Instead of computing entropy after identifying matter and geometry, the theory treats entropy as a continuous, dynamic, and local physical field. [4, 5] 
-* The Obidi Action Principle (OAP): A foundational variational principle analogous to the Einstein-Hilbert action in general relativity. It integrates classical and quantum information geometry—specifically leveraging the [Fisher–Rao and Fubini–Study metrics]
-* (https://medium.com/@jonimisiobidi/how-information-geometry-is-transformed-into-the-physical-geometry-of-spacetime-in-obidis-theory-16bf772d2412)—to optimize informational and entropic flows. [6, 7, 8, 9] 
+* The Obidi Action Principle (OAP): A foundational variational principle analogous to the Einstein-Hilbert action in general relativity. It integrates classical and quantum information geometry—specifically leveraging the [Fisher–Rao and Fubini–Study metrics](https://medium.com/@jonimisiobidi/how-information-geometry-is-transformed-into-the-physical-geometry-of-spacetime-in-obidis-theory-16bf772d2412)—to optimize informational and entropic flows. [6, 7, 8, 9] 
 * The Master Entropic Equation (MEE): The governing, non-linear field equation of ToE. Serving as the entropic equivalent to Einstein's field equations, it models the mathematical balancing of entropic production, causality, and spectral coherence. [10, 11, 12, 13] 
 * The Obidi Curvature Invariant (OCI): Derived mathematically as ln(2), this represents the ultimate unit of "entropic cost" or distinguishability. The universe only registers a state or physical separation once the entropic curvature divergence passes this specific threshold. [10, 14] 
 
