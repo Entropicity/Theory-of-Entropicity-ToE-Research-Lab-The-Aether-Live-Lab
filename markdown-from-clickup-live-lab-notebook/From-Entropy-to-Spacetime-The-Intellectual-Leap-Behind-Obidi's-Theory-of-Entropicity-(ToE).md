@@ -102,7 +102,7 @@ Many researchers regard this correspondence as a powerful mathematical analogy.
 
 Obidi asks a far more provocative question:
 
-«What if the similarities between information geometry and physical spacetime geometry are not merely mathematical curiosities, but reflections of a deeper physical reality?»
+«**What if the similarities between information geometry and physical spacetime geometry are not merely mathematical curiosities, but reflections of a deeper physical reality?**»
 
 # 💡 A Bold Intellectual Leap
 
@@ -112,7 +112,7 @@ If information geometry and spacetime geometry share the same fundamental langua
 
 Perhaps one emerges from the other.
 
-This is the conceptual leap that defines the Theory of Entropicity.
+This is the conceptual leap that defines the Theory of Entropicity (ToE).
 
 # 🌍 From Information to Reality
 
@@ -128,11 +128,11 @@ The reasoning is straightforward but ambitious:
 
 🔹 Therefore, perhaps physical spacetime is the macroscopic manifestation of a deeper informational geometry governed by entropy.
 
-In this view, Einstein's curved spacetime would not be the deepest layer of reality, but an emergent consequence of a more fundamental entropic-information substrate.
+In this view, **Einstein's curved spacetime** would not be the deepest layer of reality, but an emergent consequence of a more fundamental entropic-information substrate.
 
 # 🚀 A New Research Direction
 
-The Theory of Entropicity does not begin by assuming that spacetime is fundamental.
+The Theory of Entropicity (ToE) does not begin by assuming that spacetime is fundamental.
 
 Instead, it asks whether spacetime itself is the observable expression of an underlying entropy field whose informational geometry becomes physical geometry through the dynamics of the Obidi Action.
 
