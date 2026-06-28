@@ -6,47 +6,14 @@ The Theory of Entropicity (ToE), developed by John Onimisi Obidi in early 2025, 
 
 # 1. Conceptual Foundations and Philosophical Leap
 Primacy of Entropy: ToE elevates entropy from a statistical measure to an ontic scalar field 
-S
-(
-x
-μ
-)
-S(x 
-μ
- ) that underpins all physical phenomena. This inversion positions traditional laws (thermodynamics, quantum mechanics, gravity) as emergent from entropic dynamics.
+S(x^μ=Λ) that underpins all physical phenomena. This inversion positions traditional laws (thermodynamics, quantum mechanics, gravity) as emergent from entropic dynamics.
 Universal Time Arrow: By assigning entropy a dynamical role, ToE naturally introduces the arrow of time as a quantum-thermodynamic phenomenon, overcoming limitations of conventional reversible dynamics in physics.
 No-Rush Theorem: Establishes a universal lower limit for interaction times, providing a causal foundation for why events cannot occur instantaneously.
 
 # 2. Mathematical and Formal Achievements
 Master Entropic Equation (MEE): Governs the dynamics of the entropic field:
-□
-S
-+
-V
-′
-(
-S
-)
-=
-J
-(
-x
-)
-,
-□S+V 
-′
- (S)=J(x),
-where 
-V
-(
-S
-)
-V(S) encodes preferred entropic configurations and 
-J
-(
-x
-)
-J(x) represents sources of entropy (matter, energy, information). Through MEE, ToE recovers:
+□S+V(S)=J(x),
+where V(S) encodes preferred entropic configurations and J(x) represents sources of entropy (matter, energy, information). Through MEE, ToE recovers:
 Clausius and Boltzmann entropy in classical limits
 Shannon entropy in information contexts
 von Neumann entropy in quantum systems
