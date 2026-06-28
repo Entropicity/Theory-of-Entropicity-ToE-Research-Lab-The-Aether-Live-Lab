@@ -1,5 +1,5 @@
 # 🌌 FROM ENTROPY TO SPACETIME
-From Entropy to Spacetime: The Intellectual Leap Behind Obidi's Theory of Entropicity (ToE)
+# From Entropy to Spacetime: The Intellectual Leap Behind Obidi's Theory of Entropicity (ToE)
 
 Modern physics has quietly undergone an intellectual revolution.
 
