@@ -92,15 +92,19 @@ Demonstrates that the speed of light (c) is an entropic rate of information/ener
 Establishes entropy as a dynamic, propagating field with inertia, causality, and variational origin, producing testable predictions previously unaddressed by standard physics.
 
 # Concluding Note
-The Theory of Entropicity represents an ambitious conceptual and mathematical unification across thermodynamics, quantum mechanics, information theory, and gravity. Its achievements extend from foundational principles (entropy as primary, time arrow emergence, No-Rush Theorem) to cross-disciplinary applications (AI, consciousness, cosmology), positioning ToE as a potential paradigm-shifting framework. While still outside mainstream experimental confirmation, its predictions—including entropic decoherence rates, speed-of-entropic-update bounds, and emergent spacetime curvature from information flow—offer falsifiable avenues for future research.
+The Theory of Entropicity (ToE) represents an ambitious conceptual and mathematical unification across thermodynamics, quantum mechanics, information theory, and gravity. Its achievements extend from foundational principles (entropy as primary, time arrow emergence, No-Rush Theorem) to cross-disciplinary applications (AI, consciousness, cosmology), positioning ToE as a potential paradigm-shifting framework. While still outside mainstream experimental confirmation, its predictions—including entropic decoherence rates, speed-of-entropic-update bounds, and emergent spacetime curvature from information flow—offer falsifiable avenues for future research.
 
 # References
-John O. Obidi, Theory of Entropicity: Conceptual Innovations and the Master Entropic Equation, Cambridge University (2025).
-Theory of Entropicity ToE Monograph Repository
-Obidi, J. O., A Critical Review of the Theory of Entropicity (ToE), Cambridge University Press (2025).
-Living Review Letters: From Information Geometry to Entropic Gravity
-The Theory of Entropicity is a foundationally ambitious and cross-domain framework aiming to reframe the universe as entropy-in-motion, where all physical laws, geometry, and interactions emerge from one unifying field principle.
+* John O. Obidi, Theory of Entropicity (ToE): Conceptual Innovations and the Master Entropic Equation, Cambridge University (2025).
+* Theory of Entropicity ToE Monograph Repository
+* Obidi, J. O., A Critical Review of the Theory of Entropicity (ToE), Cambridge University Press (2025).
+* Living Review Letters: From Information Geometry to Entropic Gravity
 
+The Theory of Entropicity (ToE) is a foundationally ambitious and cross-domain framework aiming to reframe the universe as entropy-in-motion, where all physical laws, geometry, and interactions emerge from one unifying field principle.
+
+**For Details:**
+# 📚Reference(s):
+The Canonical Archives: https://entropicity.github.io/Theory-of-Entropicity-ToE/
 
 ---
 
