@@ -1,8 +1,5 @@
-Below is a polished LinkedIn draft suitable for publication.
-
-🌌 FROM ENTROPY TO SPACETIME
-
-The Intellectual Leap Behind Obidi's Theory of Entropicity (ToE)
+# 🌌 FROM ENTROPY TO SPACETIME
+From Entropy to Spacetime: The Intellectual Leap Behind Obidi's Theory of Entropicity (ToE)
 
 Modern physics has quietly undergone an intellectual revolution.
 
@@ -12,7 +9,7 @@ Entropy is everywhere.
 
 This observation inspired a question that few have dared to ask.
 
-💡 What if Entropy Is More Than a Physical Quantity?
+# 💡 What if Entropy Is More Than a Physical Quantity?
 
 The prevailing view is that entropy is a property of physical systems.
 
@@ -22,27 +19,21 @@ What if entropy is itself the fundamental substrate from which physical reality 
 
 This is the conceptual leap that lies at the heart of Obidi's Theory of Entropicity.
 
-🔗 The Chain of Reasoning
+# 🔗 The Chain of Reasoning
 
 The intellectual progression is remarkably simple:
 
 ➡️ Entropy appears in virtually every physical phenomenon.
 
-⬇️
-
 ➡️ Entropy is fundamentally linked to information.
 
-⬇️
-
 ➡️ Information underlies our mathematical description of nature.
-
-⬇️
 
 ➡️ Therefore, perhaps entropy—not spacetime—is the deepest level of physical reality.
 
 If this is true, then spacetime, matter, energy, and even gravity are not fundamental entities but emergent manifestations of a deeper entropic-information substrate.
 
-🌍 A New View of Reality
+# 🌍 A New View of Reality
 
 Instead of asking,
 
@@ -54,7 +45,7 @@ ToE asks a deeper question:
 
 This shifts the search for the foundations of physics away from geometry as the starting point and toward entropy as the primary ontological principle.
 
-🧠 From Information Geometry to Physical Spacetime
+# 🧠 From Information Geometry to Physical Spacetime
 
 Modern mathematics has already demonstrated that information possesses geometry through frameworks such as Fisher–Rao geometry, Fubini–Study geometry, and information geometry.
 
@@ -66,7 +57,7 @@ In this view,
 
 Entropy → Information → Information Geometry → Information Gravity → Physical Spacetime → Einstein Gravity
 
-🚀 A Leap Into the Unknown
+# 🚀 A Leap Into the Unknown
 
 History reminds us that the greatest scientific advances often begin with bold conceptual leaps.
 
