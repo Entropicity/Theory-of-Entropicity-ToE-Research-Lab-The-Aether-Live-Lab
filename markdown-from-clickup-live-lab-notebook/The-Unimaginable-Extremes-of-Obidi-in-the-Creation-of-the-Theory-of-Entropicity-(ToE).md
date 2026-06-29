@@ -20,6 +20,7 @@ By doing so, the framework does not merely extend historical concepts; it active
 * **Obidi's Extreme:** ToE completely **strips quantum states of their axiomatic status**. Instead of using quantum mechanics to construct spacetime, the theory states that quantum phenomena—including **wave function collapse** and the **finite speed of entanglement formation**—are localized, **causality-constrained artifacts** of the underlying entropic field reconfiguring itself. This dynamic is bound directly by the **No-Rush Theorem (NRT)**. [1, 5, 10, 11, 12] 
 
 For a closer look at how this paradigm compares to traditional physics models, you can read the comprehensive overview available on the [OSF Repository](https://osf.io/4jzqc/overview) or track its development through the [Theory of Entropicity Living Review Letters Series on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6599558).
+
 Would you like to examine:
 
 * How the **Obidi Correspondence Principle (OCP)** mathematically derives classical physics from this extreme perspective?
