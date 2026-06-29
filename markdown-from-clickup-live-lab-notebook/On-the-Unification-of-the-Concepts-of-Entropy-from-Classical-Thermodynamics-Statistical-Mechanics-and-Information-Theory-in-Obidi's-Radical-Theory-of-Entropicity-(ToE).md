@@ -9,7 +9,8 @@ Instead of treating **thermodynamics, statistical mechanics**, and **information
 
 ## How ToE Builds on the Three Ideas of Entropy
 
-   [ Classical Thermodynamics ]      [ Statistical Mechanics ]      [ Information Theory ]
+
+   [ Classical Thermodynamics ]  [ Statistical Mechanics ]   [ Information Theory ]
                  \                               |                               /
                   \                              |                              /
                    \                             v                             /
@@ -23,7 +24,8 @@ Instead of treating **thermodynamics, statistical mechanics**, and **information
                |                                                   |
                v                                                   v
       [ EMERGENT GRAVITY ]                               [ THE SPEED OF LIGHT ]
-   (Driven by Entropic Pressure)                       (Max Field Reconfiguration Rate)
+   (Driven by Entropic Pressure)                     (Max Field Reconfiguration Rate)
+
 
 ## 1. From Thermodynamics: Causal Field Dynamics [6, 7] 
 
