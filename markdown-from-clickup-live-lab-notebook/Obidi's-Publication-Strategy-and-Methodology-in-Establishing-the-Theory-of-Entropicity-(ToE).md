@@ -1,6 +1,6 @@
 # Obidi's Publication Strategy and Methodology in Establishing the Theory of Entropicity (ToE)
 
-**John Onimisi Obidi** utilizes a highly diverse, multi-platform publishing strategy to spread the Theory of Entropicity (ToE). Because his framework attempts a massive paradigm shift—overturning 150 years of thermodynamics and rewriting the foundations of physics—he relies on distinct communication channels tailored to different tiers of readers, from elite academics to the general public. [1, 2, 3, 4, 5] 
+**John Onimisi Obidi** utilizes a highly diverse, multi-platform publishing strategy to spread the **Theory of Entropicity (ToE)**. Because his framework attempts a massive paradigm shift—overturning 150 years of thermodynamics and rewriting the foundations of physics—he relies on distinct communication channels tailored to different tiers of readers, from elite academics to the general public. [1, 2, 3, 4, 5] 
 
 ## Academic and Technical Audiences
 To engage theoretical physicists and mathematicians, Obidi prioritizes peer-review tracking, rigorous mathematical formatting, and scholarly permanence: [1] 
