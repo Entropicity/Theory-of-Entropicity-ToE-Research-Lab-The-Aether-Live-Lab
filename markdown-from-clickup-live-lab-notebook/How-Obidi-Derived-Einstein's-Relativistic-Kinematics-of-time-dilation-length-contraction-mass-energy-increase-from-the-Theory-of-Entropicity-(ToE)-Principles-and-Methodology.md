@@ -18,7 +18,9 @@ The No-Rush Theorem provides the explicit mathematical constraint that forbids s
 ## 3. The Obidi Action Principle (OAP)
 To make these principles mathematically concrete, Obidi applies the Obidi Action Principle. This variational framework defines a Lagrangian for the entropic field. By treating the homogeneous and isotropic entropic field dynamically, the math yields Einstein's special relativity equations as emergent, thermodynamic constraints rather than rigid, unexplainable background postures. [3, 9, 10, 11] 
 
-Would you like to explore the specific mathematical form of the No-Rush Theorem, or see how the Master Entropic Equation scales up to derive the gravitational curvature of General Relativity? Let me know!
+Would you like to explore the specific mathematical form of the No-Rush Theorem, or see how the Master Entropic Equation scales up to derive the gravitational curvature of General Relativity? 
+
+Let us know!
 
 [1] [https://medium.com](https://medium.com/@jonimisiobidi/einsteinian-relativistic-kinematics-as-a-corollary-of-the-no-rush-theorem-nrt-of-the-theory-of-2587bac9144a)
 
