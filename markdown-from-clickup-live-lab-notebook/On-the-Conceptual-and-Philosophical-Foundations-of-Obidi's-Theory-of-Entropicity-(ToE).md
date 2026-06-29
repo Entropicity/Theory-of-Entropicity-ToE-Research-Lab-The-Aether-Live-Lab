@@ -63,3 +63,7 @@ Further exploration of this framework could focus on the mathematical mechanics,
 
 [12] [https://medium.com](https://medium.com/@jonimisiobidi/from-ginestra-bianconis-gravity-to-obidi-s-theory-of-entropicity-toe-toward-a-new-foundation-of-0a75f770c8ef)
 
+
+**For Details:**
+# 📚Reference(s):
+The Canonical Archives: https://entropicity.github.io/Theory-of-Entropicity-ToE/
