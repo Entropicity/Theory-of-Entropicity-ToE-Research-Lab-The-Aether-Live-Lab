@@ -13,13 +13,21 @@ In Obidi's theoretical physics framework, the universe is treated as a continuou
 Would you like to explore the mathematical mechanics of the Obidi Action, or see how this framework compares to other modern theories like emergent gravity? [6] 
 
 [1] [https://ijcsrr.org](https://ijcsrr.org/comparative-analysis-between-john-onimisi-obidis-theory-of-entropicity-toe-and-waldemar-marek-feldts-feldt-higgs-universal-bridge-f-hub-theory/)
+
 [2] [https://medium.com](https://medium.com/@jonimisiobidi/foundations-of-obidis-theory-of-entropicity-toe-conceptual-mathematical-and-physical-pillars-929690e65c55)
+
 [3] [https://medium.com](https://medium.com/@jonimisiobidi/foundations-of-obidis-theory-of-entropicity-toe-conceptual-mathematical-and-physical-pillars-929690e65c55)
+
 [4] [https://medium.com](https://medium.com/@jonimisiobidi/john-onimisi-obidis-audacious-contributions-to-the-foundations-of-modern-theoretical-physics-df9c286f2aeb)
+
 [5] [https://encyclopedia.pub](https://encyclopedia.pub/entry/58738)
+
 [6] [https://medium.com](https://medium.com/@jonimisiobidi/foundations-of-obidis-theory-of-entropicity-toe-500d7a162eee)
+
 [7] [https://osf.io](https://osf.io/4jzqc/overview)
+
 [8] [https://researchportal.vub.be](https://researchportal.vub.be/files/175379919/entropy-27-00656-v2.pdf)
+
 [9] [https://medium.com](https://medium.com/@jonimisiobidi/from-ginestra-bianconis-gravity-to-obidi-s-theory-of-entropicity-toe-toward-a-new-foundation-of-0a75f770c8ef)
 
 ----------
