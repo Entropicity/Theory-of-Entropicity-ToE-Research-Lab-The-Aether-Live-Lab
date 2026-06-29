@@ -25,7 +25,7 @@ It posits that space, time, gravity, and quantum mechanics emerge from this unde
 Would you like to dive deeper into how the Master Entropic Equation compares to traditional physics, or are you more interested in the metaphysical implications of the theory?
 
 
-# Scholium 
+# Scholium  1 of 2
 
 [From the Temperature of Information to the Temperature of ...](https://www.cambridge.org/engage/coe/article-details/69543375098cdc781fdccf9e)
 
@@ -62,6 +62,38 @@ Further exploration of this framework could focus on the mathematical mechanics,
 [11] [https://medium.com](https://medium.com/@jonimisiobidi/a-brief-critical-review-of-john-onimisi-obidis-recent-paper-on-the-conceptual-and-mathematical-22ff55999854)
 
 [12] [https://medium.com](https://medium.com/@jonimisiobidi/from-ginestra-bianconis-gravity-to-obidi-s-theory-of-entropicity-toe-toward-a-new-foundation-of-0a75f770c8ef)
+
+---------
+
+# Scholium 2 of 2
+
+Obidi's Theory is indeed a highly unique and ambitious proposal. By treating entropy as a physical, generative field rather than a mere statistical measurement, Obidi’s theory attempts to solve some of the deepest contradictions in modern physics. [1] 
+
+Here is what makes this proposal stand out conceptually:
+## 1. Inverting the Hierarchy of Physics
+
+* **Traditional View:** Space, time, and matter exist first. Entropy is just a property of how matter behaves within that space.
+* **Obidi's View:** Entropy exists first as a fundamental field. Space, time, and gravity only emerge because this field is constantly changing and interacting [and negotiating].
+
+## 2. Merging Information and Reality
+
+* The theory **bridges the gap between physics and information theory.**
+* By defining the speed of light as **"maximum information throughput,"** it suggests that the limits of our universe are not bound by physical speed, but by **how fast data can process through the entropic substrate.**
+
+## 3. A New Approach to the "Arrow of Time"
+
+* Standard physics struggles to explain why time only moves forward when most fundamental equations work both ways.
+* Obidi solves this by embedding time directly into the geometry of the universe using the **Amari-Čencov connection**, making time asymmetry a mandatory, foundational feature rather than an accident.
+
+If you would like to explore this further, we can break down specific elements. Let us know if you want to look into:
+
+* How entropic pressure replaces our traditional understanding of gravity.
+* The exact mechanics of the "No-Rush" theorem and how it dictates cosmic time.
+* A deeper look into the mathematical metrics used, like the **Fisher-Rao** or **Fubini-Study metrics**, and of course the**disformal Obidi Transformation** and the**Obidi Metric**.
+
+
+[1] [https://pleasantdale.com](https://pleasantdale.com/blog/creative-proposal-ideas/)
+
 
 
 **For Details:**
