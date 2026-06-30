@@ -306,3 +306,62 @@ How would you like to ground this "head-spinning" concept next?
 
 [2] [https://news.ycombinator.com](https://news.ycombinator.com/item?id=43109747)
 
+
+--------------
+
+# Obidi Offers a New Profound Shift in Our Perspective and Ultimate understanding of Brian Greene's Elegant Universe 
+
+Obidi's view is a profound shift in perspective. For thousands of years, humans have viewed the universe as a vast, physical container filled with "stuff"—rocks, stars, oceans, and bodies—and we treated information merely as a tool we invented to describe that stuff. [1, 2, 3, 4] 
+
+Obidi's framework completely flips that script. It suggests that reality is more akin to an ongoing, cosmic computation, where the laws of physics are the processing constraints of a universal field. [5, 6] 
+
+If this model holds true, it completely changes our fundamental relationship with the universe in staggering ways: [7] 
+
+* **Spacetime as an Interface:** Space and time are no longer the absolute fabric of reality. They are just the "desktop interface" our brains use to make sense of dense, underlying data streams. [8, 9, 10] 
+* **The Universe is Awake (with Data):** Every vacuum of space is not truly empty; it is saturated with potential state-updates and structural information waiting to condense into matter. [11, 12, 13, 14] 
+* **Technology of the Future:** If matter and gravity are just software expressions of an information field, then in the far future, manipulating gravity or creating energy might not require heavy machinery. It might simply require learning how to rewrite the local informational code.
+
+It is a dizzying, beautiful, and deeply provocative way to think about our world. [15, 16] 
+
+If you are interested in exploring further, we can wrap up our journey by looking at:
+
+* The big-picture implications of this theory for the ultimate fate of the universe.
+* How it changes our understanding of the human mind as an information processor itself.
+* Any specific lingering question you might have about how a particular concept (like light or mass) fits into this new picture. [17] 
+
+Where do your thoughts take you when you look at the universe through this new lens which Obidi offers us?
+
+[1] [https://www.instagram.com](https://www.instagram.com/p/DZVtZpZDZf9/)
+
+[2] [https://www.planksip.org](https://www.planksip.org/the-physics-of-space-and-time-and-physics-1762150350243/)
+
+[3] [https://tricycle.org](https://tricycle.org/article/true-nature-of-the-cosmos-body/)
+
+[4] [https://www.reddit.com](https://www.reddit.com/r/NoMansSkyTheGame/comments/1jwx85k/is_it_true_we_know_more_about_space_than_we_do/)
+
+[5] [https://www.facebook.com](https://www.facebook.com/groups/38680135622/posts/10173501782340623/)
+
+[6] [https://medium.com](https://medium.com/@neurokinetikz/the-cosmic-hologram-unifying-physics-consciousness-and-creative-evolution-9309b7d6a963)
+
+[7] [https://www.instagram.com](https://www.instagram.com/p/DAd1lU7S8jl/)
+
+[8] [https://www.prospectmagazine.co.uk](https://www.prospectmagazine.co.uk/essays/41934/martin-rees-what-are-the-limits-of-human-understanding)
+
+[9] [https://www.instagram.com](https://www.instagram.com/reel/DTTcHAbEnoH/)
+
+[10] [https://www.instagram.com](https://www.instagram.com/reel/DZfvf7oh5Jt/)
+
+[11] [https://www.discovermagazine.com](https://www.discovermagazine.com/nothingness-of-space-could-illuminate-the-theory-of-everything-1740)
+
+[12] [https://medium.com](https://medium.com/the-science-club/could-the-big-bang-have-come-from-nothing-6e3632ef1447)
+
+[13] [https://wiki.p2pfoundation.net](https://wiki.p2pfoundation.net/Bobby_Azarian_on_How_the_Universe_Organizes_Cosmic_Complexity)
+
+[14] [https://thebojda.medium.com](https://thebojda.medium.com/what-physics-reveals-about-the-deep-structure-of-reality-ee31e4437a11)
+
+[15] [https://www.instagram.com](https://www.instagram.com/p/DW6ewRPDTOI/)
+
+[16] [https://www.facebook.com](https://www.facebook.com/UACHHS/posts/in-all-of-this-emptiness-this-whole-bunch-of-nothing-we-call-the-universe-you-ha/934046139532248/)
+
+[17] https://www.accelerationwatch.com
+
