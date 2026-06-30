@@ -1,4 +1,4 @@
-# Differences Between Ginestra Bianconi's Action and John Onimisi Obidi's Spectral Obidi Action (SOA) of the Theory of Entropicity (ToE): Bianconi's G-Field and Small Positive Constant of Einstein's Field Equations of General Relativity (GR)
+# Differences Between Ginestra Bianconi's Action and John Onimisi Obidi's Spectral Obidi Action (SOA) of the Theory of Entropicity (ToE): Bianconi's G-Field and Small Positive Constant of the Dressed Einstein's Field Equations of General Relativity (GR)
 
 The **Spectral Obidi Action (SOA)** differs from Bianconi's entropic gravity action primarily by replacing a dual-metric geometric comparison with an operator-algebraic, spectral framework. 
 
