@@ -15,28 +15,37 @@ $$ds^2_{Info} = g_{ij}(\theta) d\theta^i d\theta^j$$
 Because $g_{ij}$ is positive-definite, $ds^2 \geq 0$. There is no time. [6] 
 The Obidi Action acts as a dynamical variational mechanism. It forces an evolutionary constraint on the information manifold via an asymmetric connection (the Amari–Čencov $\alpha$-connection). This introduces irreversibility directly into the geometry. [1, 2, 7, 8, 9, 10] 
 
-The action breaks the positive-definite symmetry, mapping a specific direction of irreversible information flow into a negative eigenvalue. This generates the Lorentzian metric signature required for physical spacetime ($ds^2 = -c^2dt^2 + dx^2 + dy^2 + dz^2$). [3] 
+The action breaks the positive-definite symmetry, mapping a specific direction of irreversible information flow into a negative eigenvalue. **After an ingenuous application of the disformal Obidi Transformation and the the result of the Obidi Metric, this generates the Lorentzian metric of indefinite signature required for physical spacetime ($ds^2 = -c^2dt^2 + dx^2 + dy^2 + dz^2$).** [3] 
 
 ------------------------------
-## 2. John Onimisi Obidi’s ToE vs. Erik Verlinde’s Entropic Gravity
-While both theories conclude that gravity is an emergent entropic phenomenon rather than a fundamental force, they approach the concept from opposite ontological directions: [7, 11] 
 
-Verlinde's Screen-Bound Framework:
+## 2. John Onimisi Obidi’s ToE vs. Erik Verlinde’s Entropic Gravity
+
+While both theories conclude that gravity is an emergent entropic phenomenon rather than a fundamental force, **they approach the concept from opposite ontological directions**: [7, 11] 
+
+**Verlinde's Screen-Bound Framework:**
+
 [Space / Bulk Vacuum] <--- Holographic Screen (Bits of Info) ---> [Emergent Gravitational Force]
 
-Obidi's Field-Centric Framework:
+**Obidi's Field-Centric Framework:**
+
 [Universal Ontic Entropy Field] ---> [Condensations / Gradients] ---> [Spacetime + Matter + Gravity]
 
 
-* The Starting Point (Ontology):
+# The Starting Point (Ontology):
+
 * Verlinde assumes a pre-existing holographic boundary or screen. He stores bits of information on this screen and uses the laws of thermodynamics to show that pulling matter away from the screen creates an entropic force that looks exactly like gravity.
-   * Obidi completely eliminates spacetime as an axiomatic starting point. In the Theory of Entropicity (ToE), entropy is a primary, ontic scalar field ($S(x)$) filling a fundamental substrate. Spacetime is not a container with a boundary; it is a macro-shadow generated entirely by the field's internal densities. [2, 7, 10, 11, 12] 
-* The Mechanism of Gravity:
+* **Obidi completely eliminates spacetime as an axiomatic starting point**. In the Theory of Entropicity (ToE), entropy is a primary, ontic scalar field ($S(x)$) filling a fundamental substrate. Spacetime is not a container with a boundary; it is a macro-shadow generated entirely by the field's internal densities. [2, 7, 10, 11, 12] 
+
+# The Mechanism of Gravity:
+
 * Verlinde views gravity as a thermodynamic side-effect caused by changing the information stored on a boundary screen.
-   * Obidi models gravity as the direct curvature and gradient flow of this universal entropic field. Matter itself is just a localized region of "entropic condensation". [7, 10, 11, 13, 14] 
-* The Role of the Speed of Light ($c$):
+* **Obidi models gravity as the direct curvature and gradient flow** of this universal entropic field. Matter itself is just a localized region of "entropic condensation". [7, 10, 11, 13, 14]
+     
+# The Role of the Speed of Light ($c$):
+
 * Verlinde treats the speed of light as a standard background constant of relativity.
-   * Obidi derives $c$ dynamically via his "No-Rush" Theorem. The speed of light is redefined as the absolute maximum rate at which the entropic field can structurally rearrange its information states. [1, 7, 8, 15, 16] 
+* **Obidi derives $c$ dynamically** via his "No-Rush" Theorem. The speed of light is redefined as the absolute maximum rate at which the entropic field can structurally rearrange its information states. [1, 7, 8, 15, 16] 
 
 ------------------------------
 
