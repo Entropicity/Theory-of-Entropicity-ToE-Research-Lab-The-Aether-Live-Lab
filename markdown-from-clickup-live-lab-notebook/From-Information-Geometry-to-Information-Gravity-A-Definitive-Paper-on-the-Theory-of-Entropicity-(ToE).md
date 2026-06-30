@@ -38,3 +38,49 @@ Would you like to dive deeper into the mathematical mechanics of the Obidi Actio
 [10] [https://theoccasionalinformationist.com](https://theoccasionalinformationist.com/2025/08/29/dark-matter-and-information-revisited/)
 
 [11] [https://www.cambridge.org](https://www.cambridge.org/engage/api-gateway/coe/assets/orp/resource/item/67e63abe6dde43c9086de9e0/original/the-theory-of-entropicity-to-e-an-entropy-driven-derivation-of-mercury-s-perihelion-precession-beyond-einstein-s-curved-spacetime-in-general-relativity-gr.pdf)
+
+
+----------
+
+**John Onimisi Obidi’s core contribution is shifting the conversation from a purely static geometric description to a fully dynamical one.** [1] 
+
+Prior to his work, frameworks like Shun-ichi Amari's information geometry mapped probability distributions into statistical manifolds (such as using the Fisher-Rao metric), but they lacked an intrinsic mechanism for physical evolution. They provided a beautiful "map," but no laws of motion. [1, 2, 3] 
+
+Obidi’s **"definitive move"** in his Theory of Entropicity (ToE) relies on three major conceptual shifts to make this information landscape truly physical: [1, 4, 5] 
+
+## 1. Introducing a Variational Principle (The Obidi Action)
+Just as Einstein used the Einstein–Hilbert action to turn a abstract mathematical metric into physical, curving spacetime, Obidi introduced the Obidi Action. 
+
+By applying a variational principle directly to an entropic information field ($S(x)$), information geometry gains a Lagrangian, Euler-Lagrange field equations, and conserved currents. Dynamics creates reality; information geometry becomes physical because it is forced to evolve dynamically. [1, 5]
+
+## 2. The Disformal Obidi Transformation
+A major roadblock in previous entropic gravity models was interpreting information space (which is Riemannian and positive-definite) as physical spacetime (which is Lorentzian and includes a time dimension). 
+
+Obidi bypassed this by mapping the entropic information metric ($g_{ij}$) to a Lorentzian spacetime metric ($g_{\mu\nu}$) via a disformal transformation. 
+
+Spacetime and gravity emerge naturally as a "solution" to the underlying entropic dynamics, rather than being assumed from the start. [1] 
+
+## 3. Subsuming Rather Than Modifying Relativity
+Rather than trying to patch or modify Einstein's field equations ad hoc, the Obidi framework derives them. In low-gradient, near-equilibrium conditions, the Master Entropic Equation (MEE) mathematically reduces back to classical General Relativity. This positions ToE as a unifying meta-framework that embraces the insights of Ted Jacobson and Erik Verlinde while providing the explicit, foundational math they left open. [4, 6, 7, 8] 
+
+Would you like to examine how Obidi utilizes the Fisher-Rao or Fubini-Study metrics within this framework, or look into the experimental/falsifiable predictions his papers propose? [2, 8, 9, 10] 
+
+[1] [https://medium.com](https://medium.com/@jonimisiobidi/how-the-obidi-action-dynamically-transforms-information-geometry-into-physical-spacetime-via-the-b71f44ff8517)
+
+[2] [https://papers.ssrn.com](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6599558)
+
+[3] [https://medium.com](https://medium.com/@jonimisiobidi/obidis-philosophical-analysis-of-being-and-becoming-based-on-his-theory-of-entropicity-toe-and-ee68e95fccb5)
+
+[4] [https://notd.io](https://notd.io/@jonimisiobidi)
+
+[5] [https://medium.com](https://medium.com/@jonimisiobidi/on-obidis-ontodynamics-of-being-and-becoming-in-his-theory-of-entropicity-toe-552720452514)
+
+[6] [https://medium.com](https://medium.com/@jonimisiobidi/from-information-geometry-to-information-gravity-information-geometry-as-the-origin-of-einsteins-f64a9c26c1ab)
+
+[7] [https://www.cambridge.org](https://www.cambridge.org/engage/coe/article-details/6a1c8517810b9dcc82af489e)
+
+[8] [https://medium.com](https://medium.com/@jonimisiobidi/from-information-geometry-to-information-gravity-information-geometry-as-the-origin-of-einsteins-f64a9c26c1ab)
+
+[9] [https://medium.com](https://medium.com/@jonimisiobidi/john-onimisi-obidis-audacious-contributions-to-the-foundations-of-modern-theoretical-physics-df9c286f2aeb)
+
+[10] [https://www.linkedin.com](https://www.linkedin.com/posts/john-onimisi-obidi-a2041911_the-exact-logical-structure-and-mechanism-activity-7442804977779179520-XwiM)
